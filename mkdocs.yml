@@ -108,7 +108,7 @@ markdown_extensions:
       title: Table of Content
 
 nav:
-  - Home: index.md
+  - Main: index.md
 
   - "ETC1023: Intrumentation, Measures & Control":
     - "Chapter3: Measurement Uncertainty": "ETC1023 Instrumentation/Chapter3"
