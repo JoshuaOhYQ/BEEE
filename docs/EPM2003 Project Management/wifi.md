@@ -123,3 +123,7 @@ Serial.println(WiFi.localIP());
 ```cpp
 void loop() {}
 ```
+
+## Key Notes
+
+!!! 
