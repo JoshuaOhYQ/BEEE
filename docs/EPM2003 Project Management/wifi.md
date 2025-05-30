@@ -124,6 +124,8 @@ Serial.println(WiFi.localIP());
 void loop() {}
 ```
 
-## Key Notes
 
-!!! 
+!!! Info "Key points"
+
+    - Make sure to double-check ssid / password
+    - Ensure the Wi-Fi is 2.4 GHz (ESP8266 doesn't support 5 GHz)
