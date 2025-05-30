@@ -1,1 +1,2 @@
-IDK HOW TO DO
+## Thingspeak
+very nice 
