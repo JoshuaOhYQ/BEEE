@@ -111,7 +111,11 @@ nav:
   - Home: index.md
 
   - "ETC1023: Intrumentation, Measures & Control":
-    - "Chapter3: Measurement Uncertainty": "ETC1023 Instrumentation/Chapter3"
+    - "Chapter3: Measurement Uncertainty": "ETL1023 Instrumentation/Chapter3"
+
+  - "EPM2003: Project Management":
+    - "ThingSpeak": "EPM2003 Project Management/ThingSpeak"
+  
 
 
 
