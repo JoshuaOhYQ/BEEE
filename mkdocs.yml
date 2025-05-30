@@ -115,6 +115,7 @@ nav:
 
   - "EPM2003: Project Management":
     - "ThingSpeak": "EPM2003 Project Management/ThingSpeak"
+    - "Wifi": "EPM2003 Project Management/WifiConnect.md"
   
 
 
