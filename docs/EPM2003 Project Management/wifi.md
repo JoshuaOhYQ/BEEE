@@ -43,9 +43,9 @@ const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
 ```
 
-  ```ssid```: Name of your Wi-Fi network (case sensitive)
-  ```password```: Password for the network
-  Replace ```Your_SSID``` and ```Your_PASSWORD``` with your actual credentials
+  - ```ssid```: Name of your Wi-Fi network (case sensitive)
+  - ```password```: Password for the network
+  - Replace ```Your_SSID``` and ```Your_PASSWORD``` with your actual credentials
 
 !!! Danger 
 
@@ -93,9 +93,9 @@ while (WiFi.status() != WL_CONNECTED) {
 }
 ```
 
-  ```WiFi.status()```: checks the connection status
-  ```WL_CONNECTED```: successfully connected
-  The loop prints dots (```...```) every 500ms while waiting. 
+  - ```WiFi.status()```: checks the connection status
+  - ```WL_CONNECTED```: successfully connected
+  - The loop prints dots (```...```) every 500ms while waiting. 
 
 !!! Notes 
 
