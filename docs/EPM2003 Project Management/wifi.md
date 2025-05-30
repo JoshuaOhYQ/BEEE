@@ -130,3 +130,39 @@ void loop() {}
 
     - Make sure to double-check ssid / password
     - Ensure the Wi-Fi is 2.4 GHz (ESP8266 doesn't support 5 GHz)
+
+## Expected Output
+
+**A. When the ESP8266 starts connecting:**
+
+```
+Connecting
+```
+
+**B. While waiting for connection (every 500ms):**
+
+```
+....
+```
+
+- Dots (```.```) appear repeatedly until the connection is established.
+- Each dot represents a 500ms delay ```(delay(500))```.
+- Example: If it takes 2 seconds to connect, you’ll see ```....``` (4 dots)
+
+**C. Once connected:** 
+
+```
+Connected!
+192.168.1.100
+```
+
+- "Connected!" confirms a successful Wi-Fi link.
+- The next line shows the local IP address assigned by your router.
+
+**So, The full output will be:**
+```
+Connecting....
+Connected!
+192.168.1.100
+```
+
