@@ -30,13 +30,20 @@ void loop() {}
 
 ## Explanation 
 
+1. Includes the ESP8266 Wi-Fi library, which provides functions to connect to Wi-Fi networks.
+
 ```cpp
 #include <ESP8266WiFi.h>
 ```
 
-!!! Explanation 
+2. Defining Wi-Fi network credantials
 
-    Includes the ESP8266 Wi-Fi library, which provides functions to connect to Wi-Fi networks.
+```cpp
+const char* ssid = "Your_SSID";
+const char* password = "Your_PASSWORD";
+```
 
+  ```ssid```: Name of your Wi-Fi network (case sensitive)
+  ```password```: Password for the network
+  Replace ```Your_SSID``` and ```Your_PASSWORD``` with your actual credentials
 
-    
