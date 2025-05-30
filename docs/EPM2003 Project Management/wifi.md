@@ -1,3 +1,4 @@
+# Wifi
 ## Introduction
 Since we are using the NodeMCU ESP8266 which is widely used for IoT (Internet of Things projects), it has built-in Wi-Fi, hence making it ideal for connecting devices to the internet. 
 
