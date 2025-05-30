@@ -1,2 +1,2 @@
-## Thingspeak
+## ThingSpeak
 very nice 
