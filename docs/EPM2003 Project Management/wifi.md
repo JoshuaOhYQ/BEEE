@@ -51,3 +51,59 @@ const char* password = "Your_PASSWORD";
 
     For your SSID and passwork, try not to use special character such as ' or ` 
 
+C. The ```setup()``` function runs once when the board starts. It initializes settings
+
+```cpp
+void setup(){
+
+```
+
+D. Starts serial communication at 9600 baud rate for debugging
+
+```cpp
+Serial.begin(9600);
+```
+
+!!! Tip 
+
+    You can also use ```Serial.begin(115200)``` for faster communication (common in ESP8266).
+
+E. Attempts to connect to the Wi-Fi network using the provided ```ssid``` and ```password```
+
+```cpp
+WiFi.begin(ssid, password);
+```
+
+!!! Notes 
+
+    This is non-blocking (the code continues while connecting in the background).
+
+F. Prints ```"Connecting"``` to the Serial Monitor to indicate the connection attempt
+
+```cpp
+Serial.print("Connecting");
+```
+
+G. Waits until the Wi-Fi connection is established
+
+```cpp
+while (WiFi.status() != WL_CONNECTED) {
+  delay(500);
+  Serial.print(".");
+}
+```
+
+  ```WiFi.status()```: checks the connection status
+  ```WL_CONNECTED```: successfully connected
+  The loop prints dots (```...```) every 500ms while waiting. 
+
+!!! Notes 
+
+    This is a blocking loop (code pauses here until connected).
+
+H. Print ```"Connected!"``` on a new kube (```\n```) once the Wi-Fi is connected
+
+```cpp
+Serial.println("\nConnected!");
+```
+
