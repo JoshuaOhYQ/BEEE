@@ -30,13 +30,13 @@ void loop() {}
 
 ## Explanation 
 
-A. Includes the ESP8266 Wi-Fi library, which provides functions to connect to Wi-Fi networks.
+**A. Includes the ESP8266 Wi-Fi library, which provides functions to connect to Wi-Fi networks**
 
 ```cpp
 #include <ESP8266WiFi.h>
 ```
 
-B. Defining Wi-Fi network credantials
+**B. Defining Wi-Fi network credantials**
 
 ```cpp
 const char* ssid = "Your_SSID";
@@ -51,14 +51,14 @@ const char* password = "Your_PASSWORD";
 
     For your SSID and passwork, try not to use special character such as ' or ` 
 
-C. The ```setup()``` function runs once when the board starts. It initializes settings
+**C. The ```setup()``` function runs once when the board starts. It initializes settings**
 
 ```cpp
 void setup(){
 
 ```
 
-D. Starts serial communication at 9600 baud rate for debugging
+**D. Starts serial communication at 9600 baud rate for debugging**
 
 ```cpp
 Serial.begin(9600);
@@ -68,7 +68,7 @@ Serial.begin(9600);
 
     You can also use ```Serial.begin(115200)``` for faster communication (common in ESP8266).
 
-E. Attempts to connect to the Wi-Fi network using the provided ```ssid``` and ```password```
+**E. Attempts to connect to the Wi-Fi network using the provided ```ssid``` and ```password```**
 
 ```cpp
 WiFi.begin(ssid, password);
@@ -78,13 +78,13 @@ WiFi.begin(ssid, password);
 
     This is non-blocking (the code continues while connecting in the background).
 
-F. Prints ```"Connecting"``` to the Serial Monitor to indicate the connection attempt
+**F. Prints ```"Connecting"``` to the Serial Monitor to indicate the connection attempt**
 
 ```cpp
 Serial.print("Connecting");
 ```
 
-G. Waits until the Wi-Fi connection is established
+**G. Waits until the Wi-Fi connection is established**
 
 ```cpp
 while (WiFi.status() != WL_CONNECTED) {
@@ -101,13 +101,13 @@ while (WiFi.status() != WL_CONNECTED) {
 
     This is a blocking loop (code pauses here until connected).
 
-H. Prints ```"Connected!"``` on a new line (```\n```) once the Wi-Fi is connected
+**H. Prints ```"Connected!"``` on a new line (```\n```) once the Wi-Fi is connected**
 
 ```cpp
 Serial.println("\nConnected!");
 ```
 
-I. Prints the local IP address assigned to the ESP8266 by the router
+**I. Prints the local IP address assigned to the ESP8266 by the router**
 
 ```cpp
 Serial.println(WiFi.localIP());
@@ -117,7 +117,7 @@ Serial.println(WiFi.localIP());
 
     ```192.168.1.100``` (your IP will vary)
 
-J. The ```loop()``` function runs repeatedly after ```setup()```
+**J. The ```loop()``` function runs repeatedly after ```setup()```**
 
 ```cpp
 void loop() {}
