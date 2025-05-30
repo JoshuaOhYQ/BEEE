@@ -29,4 +29,14 @@ void loop() {}
 ```
 
 ## Explanation 
+
 ```cpp
+#include <ESP8266WiFi.h>
+```
+
+!!! Explanation 
+
+    Includes the ESP8266 Wi-Fi library, which provides functions to connect to Wi-Fi networks.
+
+
+    
