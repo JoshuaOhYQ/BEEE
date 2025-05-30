@@ -47,3 +47,8 @@ const char* password = "Your_PASSWORD";
   ```password```: Password for the network
   Replace ```Your_SSID``` and ```Your_PASSWORD``` with your actual credentials
 
+!!! Danger 
+
+    For your SSID and passwork, try not to use special character such as ' or ` 
+
+    
