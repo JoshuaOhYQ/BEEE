@@ -1,6 +1,5 @@
 ---
 hide:
-  - navigation  # This hides the entire left sidebar/navigation
   - toc         # This hides the right table of contents if present
 ---
 
