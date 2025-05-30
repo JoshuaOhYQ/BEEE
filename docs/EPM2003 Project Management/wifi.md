@@ -124,6 +124,7 @@ Serial.println(WiFi.localIP());
 void loop() {}
 ```
 
+## Other Key points 
 
 !!! Info "Key points"
 
