@@ -101,9 +101,24 @@ while (WiFi.status() != WL_CONNECTED) {
 
     This is a blocking loop (code pauses here until connected).
 
-H. Print ```"Connected!"``` on a new kube (```\n```) once the Wi-Fi is connected
+H. Prints ```"Connected!"``` on a new line (```\n```) once the Wi-Fi is connected
 
 ```cpp
 Serial.println("\nConnected!");
 ```
 
+I. Prints the local IP address assigned to the ESP8266 by the router
+
+```cpp
+Serial.println(WiFi.localIP());
+```
+
+!!! Example 
+
+    ```192.168.1.100``` (your IP will vary)
+
+J. The ```loop()``` function runs repeatedly after ```setup()```
+
+```cpp
+void loop() {}
+```
