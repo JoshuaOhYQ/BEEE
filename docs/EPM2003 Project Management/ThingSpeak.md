@@ -197,7 +197,6 @@ Temperature: 12*C
 **In your ThingSpeak Channel, it will show:**
 A graph of random values (0–100) updating every 15 seconds
 
-## Demo 
 
 ## Demo
 
