@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mydomain.org/mysite/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/EPM2003%20Project%20Management/ThingSpeak/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/EPM2003%20Project%20Management/wifi/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/ETL1023%20Instrumentation/Chapter3/</loc>
+         <lastmod>2025-05-31</lastmod>
+    </url>
+</urlset>
