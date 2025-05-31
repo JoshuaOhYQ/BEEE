@@ -14,8 +14,8 @@ In this part, we will not be using the sensor, as I will be randomly generating 
 #include <WiFiClient.h>
 #include <ThingSpeak.h>
 
-const char* ssid = "Iphone PRO MAXXXXX";       // Your Network SSID
-const char* password = "ctme5939";     // Your Network Password
+const char* ssid = "Your_SSID";       // Your Network SSID
+const char* password = "Your_PASSWORD";     // Your Network Password
 
 WiFiClient client;
 
