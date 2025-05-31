@@ -199,8 +199,9 @@ A graph of random values (0–100) updating every 15 seconds
 
 ## Demo 
 
-To review the demo, please click this link:
-https://thingspeak.mathworks.com/channels/2975330
+## Demo
+
+[View Live Demo on ThingSpeak]{ .md-button .md-button--primary }
   
 
 
