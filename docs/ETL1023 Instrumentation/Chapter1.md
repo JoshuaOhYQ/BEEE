@@ -46,7 +46,8 @@
 
 - A typical mechatronic system that uses the theory of **hardware automation** looks like:
 
-![ControlSystem](ETL1023 Instrumentation/Control System chapter1.png)
+![ControlSystem](ETL1023%20Instrumentation/Control%20System%20chapter1.png)
+
 
 
 !!! tip "Raw signal suffer from:"
