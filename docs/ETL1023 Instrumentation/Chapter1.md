@@ -44,11 +44,17 @@
 ## Control
 - **Automatic Control System** is important for **hardware automation**. 
 
-!!! tip "Raw signal suffer from"
-
-    
 
 
+!!! tip "Raw signal suffer from:"
+
+    - Low amplitude (e.g., microvolts from a thermocouple)
+
+    - Noise/interference (e.g., electromagnetic interference in industrial environments)
+
+    - Non-linearity (e.g., resistance-temperature curves in RTDs)
+
+    - Impedance mismatch (e.g., high-output impedance of piezoelectric sensors)
 
 
 
