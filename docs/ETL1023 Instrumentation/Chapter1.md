@@ -21,8 +21,34 @@
 !!! warning 
 
     Only transducers that are used for measurement qualify as sensors
+
+
+## Instrumentation 
+- Instrumentation system is a collection engineering system that is used to measure, detect, record, display/indicate and control process parameters that occur in a manufacturing or processing applications. 
+
+!!! tip "For Your Information"
+
+    Key components of instrumentation system:
+
+    - Sensors/Transducers: Convert physical parameters into measurable signals (for example: thermocouples, pressure sensors)
+
+    - Signal Conditioners: Amplify or filter raw signals into clean, standardized form suitable for further processing (for example: analog-to-digital converters)
+
+    - Controllers: Process data and send control commands (for example: PLCs, PID controllers)
+
+    - Actuators: Execute control actions (for example: valves, motors)
+
+    - Human-Machine Interface (HMI): Display data and allow user input
+
+
+## Control
+- **Automatic Control System** is important for **hardware automation**. 
+
+!!! tip "Raw signal suffer from"
+
     
-      
+
+
 
 
 
