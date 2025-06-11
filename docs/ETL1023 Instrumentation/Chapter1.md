@@ -47,7 +47,7 @@
 - A typical mechatronic system that uses the theory of **hardware automation** looks like:
 
 <p align="center">
-  <img src="ETL1023 Instrumentation/Control System chapter1" alt="ControlSystem" />
+  <img src="ETL1023 Instrumentation/Mec.png" alt="ControlSystem" />
 </p>
 
 
