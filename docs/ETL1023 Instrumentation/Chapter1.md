@@ -46,9 +46,7 @@
 
 - A typical mechatronic system that uses the theory of **hardware automation** looks like:
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/JoshYQ/BEEE/main/docs/ETL1023%20Instrumentation/Control%20System%20chapter1.png" alt="Logic Language">
-</div>
+![Logic Language](https://raw.githubusercontent.com/JoshYQ/BEEE/main/docs/ETL1023%20Instrumentation/Control%20System%20chapter1.png)
 
 
 !!! tip "Raw signal suffer from:"
