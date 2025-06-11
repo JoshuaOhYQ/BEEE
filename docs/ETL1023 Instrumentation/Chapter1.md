@@ -44,6 +44,12 @@
 ## Control
 - **Automatic Control System** is important for **hardware automation**. 
 
+- A typical mechatronic system that uses the theory of **hardware automation** looks like:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/d9329b3a7c0c9e702a737b535a9c23927ce4ee57/docs/ETL1023%20Instrumentation/Control%20System%20chapter1.png" alt="Logic Language">
+</div>
+
 
 
 !!! tip "Raw signal suffer from:"
