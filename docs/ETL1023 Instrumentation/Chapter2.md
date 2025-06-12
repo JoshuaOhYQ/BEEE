@@ -25,6 +25,7 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 
 
 - Below is a complete comaparison between both **Null-type** and **Deflection-type** Instrument:
+
 | Null-Type               | Deflection-Type        |
 | ----------------------- | ---------------------- |
 | Relies on precisely calibrated weights or reference forces | Display measurements instanly via pointer deflection |
