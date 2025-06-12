@@ -38,11 +38,11 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 ## Analogue and Digital Instruments
 - **Digital Instruments**: Output signals are discrete numerical values (binary). For example, *digital multimeters & smart sensors with embedded processors*.
 
-- Advantages of using a **Digital Instrument** are:  
-  - [x] Direct compatibility  
-  - [x] Faster processing  
-  - [x] Higher precision (data immediately readable by computers, so eliminates conversion delays)  
-  - [x] No quantization error as no analogue to digital converter is used
+**Advantages of using a Digital Instrument:**
+- [x] Direct compatibility
+- [x] Faster processing
+- [x] Higher precision (data immediately readable by computers, so eliminates conversion delays)
+- [x] No quantization error as no analogue to digital converter is used
 
 - Resolution of a **Digital Instrument** depends on the sensor itself.
 
@@ -50,9 +50,10 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 
 - Must be interfaced to microcomputers by an *Analogue-to-Digital (A/D) Converter*, which converts continuous signals into discrete digital values for computer processing.
 
-- Problems of using an **Analogue Instrument** are:  
-  - [ ] A/D conversion is not instantaneous; delays can impact real-time control of fast processes  
-  - [ ] Quantization Error: Digital approximation may lose subtle signal variations
+**Problems of using an Analogue Instrument:**
+- [ ] A/D conversion is not instantaneous; delays can impact real-time control of fast processes
+- [ ] Quantization Error: Digital approximation may lose subtle signal variations
+
 
 
   
