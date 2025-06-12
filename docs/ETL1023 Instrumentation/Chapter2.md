@@ -24,32 +24,34 @@
 Basically, the fluid pressure is applied to the base of the piston enclosed in a cylinder. Pressure then creates an upward force ```F = P x A, where P is pressure, A is piston Area``` . Calibrated weights are then added to the top of the piston until the donward force balances the upward fluid force. At equilibrium, the piston returns to the reference mark (null point). The formula of ```P = mg/A``` is then used to calculate the true output. 
 
 
-- Below is a complete comaparison between both **Null-type** and **Deflection-type** Instrument:
+- Below is a complete comparison between both **Null-type** and **Deflection-type** instruments:
 
-| Null-Type               | Deflection-Type        |
-| ----------------------- | ---------------------- |
-| Relies on precisely calibrated weights or reference forces | Display measurements instanly via pointer deflection |
+| **Null-Type** | **Deflection-Type** |
+| ------------- | ------------------- |
+| Relies on precisely calibrated weights or reference forces | Displays measurements instantly via pointer deflection |
 | No friction/hysteresis errors (equilibrium at null point) | User-friendly (no iterative adjustments needed) |
-| Independent on linearlity issues (no need for sensor/output linearlity) | Fast measurements |
-| Negligible error sources & very high accuracy | **Spring/Mechanical Non-Linearlity**: Requires precise calibration of springs and sensors |
-| Slower and less convenient (requires manual weight adjustment) | **Friction/Wear** : Continuous movement introduces errors over time |
+| Independent of linearity issues (no need for sensor/output linearity) | Fast measurements |
+| Negligible error sources & very high accuracy | **Spring/Mechanical Non-Linearity**: Requires precise calibration of springs and sensors |
+| Slower and less convenient (requires manual weight adjustment) | **Friction/Wear**: Continuous movement introduces errors over time |
+
 
 ## Analogue and Digital Instruments
 - **Digital Instruments**: Output signals are discrete numerical values (binary). For example, *digital multimeters & smart sensors with embedded processors*.
 
 - Advantages of using a **Digital Instrument** are:
-* [x] Direct compatibility
-* [x] Faster processing
-* [x] Higher precision (data immediately readable by computers, so can eliminates conversion delays)
-* [x] No quantization error as no analogue to digital converter is used
+  - [x] Direct compatibility  
+  - [x] Faster processing  
+  - [x] Higher precision (data immediately readable by computers, so eliminates conversion delays)  
+  - [x] No quantization error as no analogue to digital converter is used
 
 - Resolution of **Digital Instrument** depends on the sensor itself.
 
-- **Analogue Instruments**: Output signals are conmtinuous (voltage, current, or pointer displacement). For example, *analog pressure gauges & thermocouples*.
+- **Analogue Instruments**: Output signals are continuous (voltage, current, or pointer displacement). For example, *analog pressure gauges & thermocouples*.
 
-- Must be interfaced to microcomputers by an *Analogue-to-Digital (A/D) Converter* which converts continuous signals into discrete digital values for computer processing
+- Must be interfaced to microcomputers by an *Analogue-to-Digital (A/D) Converter*, which converts continuous signals into discrete digital values for computer processing.
 
-- Problems of using a **Analogue Instrument** are:
- * [ ] A/D conversion is not instantaneous; delays can impact real-time control of fast processes
- * [ ] Quantization Error: Digital approximation may lose subtle signal variations
+- Problems of using an **Analogue Instrument** are:
+  - [ ] A/D conversion is not instantaneous; delays can impact real-time control of fast processes  
+  - [ ] Quantization Error: Digital approximation may lose subtle signal variations
+
   
