@@ -112,6 +112,7 @@ nav:
 
   - "ETC1023: Intrumentation, Measures & Control":
     - "Chapter1: Introduction": "ETL1023 Instrumentation/Chapter1"
+    - "Chapter1: Instrument types & Performance": "ETL1023 Instrumentation/Chapter2"
     - "Chapter3: Measurement Uncertainty": "ETL1023 Instrumentation/Chapter3"
 
   - "EPM2003: Project Management":

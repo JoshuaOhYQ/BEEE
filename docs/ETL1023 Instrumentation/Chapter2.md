@@ -1,0 +1,13 @@
+# Instrument Types and Performance Characteristics
+
+## Active and passive instruments
+| Passive Instruments     | Active Instruments     |
+| ----------------------- | ---------------------- |
+| Output produced entirely by the quantity being measured (eg. fluid pressure) | Quantity being measured modulates the magnitude of an external power source to produce the output (eg. changes in resistance of strain gauge modulates external voltage) |
+| Do not require an external power source to generate output | Rely on external power for their operation (usually in electrical form) |
+| Passive pressure gauge measures fluid pressure by converting it directly into mechanical movement of a pointer (energy moving pointer comes entirely from pressure change in fluid) | Float-type petrol tank level indicator has a float that moves with petrol level and linked to a potentiometer arm which devides an external voltage producing output signal proportional to fuel level (energy from external source & float modulates it) |
+| <div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/82e4815c18e26ba3041776c7695c0abf52fd231a/docs/ETL1023%20Instrumentation/Mec.png?raw=true" alt="Control System">
+</div> | <div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/82e4815c18e26ba3041776c7695c0abf52fd231a/docs/ETL1023%20Instrumentation/Mec.png?raw=true" alt="Control System">
+</div> |
