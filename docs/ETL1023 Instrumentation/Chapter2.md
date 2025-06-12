@@ -36,28 +36,32 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 
 
 ## Analogue and Digital Instruments
-- **Digital Instruments**: Output signals are discrete numerical values (binary).  
-  For example, *digital multimeters & smart sensors with embedded processors*.
+- **Digital Instruments**: Output signals are discrete numerical values (binary). For example, *digital multimeters & smart sensors with embedded processors*.
 
 - Advantages of using a **Digital Instrument** are:  
-  1. Direct compatibility  
-  2. Faster processing  
-  3. Higher precision (data immediately readable by computers, so eliminates conversion delays)  
-  4. No quantization error as no analogue to digital converter is used
+  - [x] Direct compatibility  
+  - [x] Faster processing  
+  - [x] Higher precision (data immediately readable by computers, so eliminates conversion delays)  
+  - [x] No quantization error as no analogue to digital converter is used
 
 - Resolution of a **Digital Instrument** depends on the sensor itself.
 
-- **Analogue Instruments**: Output signals are continuous (voltage, current, or pointer displacement).  
-  For example, *analog pressure gauges & thermocouples*.
+- **Analogue Instruments**: Output signals are continuous (voltage, current, or pointer displacement). For example, *analog pressure gauges & thermocouples*.
 
-- Must be interfaced to microcomputers by an *Analogue-to-Digital (A/D) Converter*,  
-  which converts continuous signals into discrete digital values for computer processing.
+- Must be interfaced to microcomputers by an *Analogue-to-Digital (A/D) Converter*, which converts continuous signals into discrete digital values for computer processing.
 
 - Problems of using an **Analogue Instrument** are:  
-  1. A/D conversion is not instantaneous; delays can impact real-time control of fast processes  
-  2. Quantization Error: Digital approximation may lose subtle signal variations
+  - [ ] A/D conversion is not instantaneous; delays can impact real-time control of fast processes  
+  - [ ] Quantization Error: Digital approximation may lose subtle signal variations
 
 
+## Static Characteristics 
+- Room thermometer is used only for **low-accuracy application** (Displays 20°C with a possible error of ±0.5°C (true temperature between 19.5–20.5°C))
 
+- Human comfort is unaffected by such tiny deviations and there are no critical consequences if the reading is slightly off. Hence, for **non-critical applications**, lower accuracy instrument (and lower-cost) are already sufficient. 
+
+- However, in **critical applications**,  a 0.5°C variation could drastically alter reaction rates or product outcomes. 
+
+- For instance, Chemical processes are often highly sensitive to temperature changes (in pharmaceutical production, a 0.5°C shift might ruin a batch), hence requiring a high-precision instruments with innacuracies << 0.5°C. 
 
   
