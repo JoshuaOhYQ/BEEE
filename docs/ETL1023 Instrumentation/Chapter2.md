@@ -32,3 +32,16 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 | Independent on linearlity issues (no need for sensor/output linearlity) | Fast measurements |
 | Negligible error sources & very high accuracy | **Spring/Mechanical Non-Linearlity**: Requires precise calibration of springs and sensors |
 | Slower and less convenient (requires manual weight adjustment) | **Friction/Wear** : Continuous movement introduces errors over time |
+
+## Analogue and Digital Instruments
+- **Digital Instruments**: Output signals are discrete numerical values (binary). For example, *digital multimeters & smart sensors with embedded processors*.
+
+- Advantages of using a **Digital Instrument** are:
+  * [x] Direct compatibility
+  * [x] Faster processing
+  * [x] Higher precision (data immediately readable by computers, so can eliminates conversion delays)
+  * [x] No quantization error as no analogue to digital converter is used
+
+- Resolution of **Digital Instrument** depends on the sensor itself.
+
+- 
