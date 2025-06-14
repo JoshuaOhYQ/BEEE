@@ -118,3 +118,6 @@ nav:
   - "EPM2003: Project Management":
     - "Wifi": "EPM2003 Project Management/wifi"
     - "ThingSpeak": "EPM2003 Project Management/ThingSpeak"
+
+  - "ETL 1023: Analogue Electronic":
+    - "Chapter 3: Rectifier": "ETL1023 Analogue Electronic/Rectifier"
