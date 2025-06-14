@@ -64,4 +64,5 @@ Basically, the fluid pressure is applied to the base of the piston enclosed in a
 
 - For instance, Chemical processes are often highly sensitive to temperature changes (in pharmaceutical production, a 0.5°C shift might ruin a batch), hence requiring a high-precision instruments with innacuracies << 0.5°C. 
 
-  
+## Accuracy and Inaccuracy
+
