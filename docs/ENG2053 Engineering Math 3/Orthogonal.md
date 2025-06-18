@@ -136,7 +136,7 @@ $$
         - For this case we will get a positive value from the integral, as:
 
           $$
-          \int_{\a}^{\b} \f_i(x)f_i(x)  \, dx = \int_{\a}^{\b} \[f_i(x)]^2  \, dx > 0
+          \int_{a}^{b} f_i(x)f_i(x) \, dx = \int_{a}^{b} [f_i(x)]^2 \, dx > 0
           $$
 
 !!! Warning "Please take note!"
