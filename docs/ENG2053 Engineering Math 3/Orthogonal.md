@@ -145,7 +145,7 @@ $$
 
     - If $f(x) = 0$, then $\int f(x)g(x) \, dx = 0$ for any $g(x)$
     - This would trivially satisfy the orthogonality condition without meaningful interpretation
-    - Truth be told, we only care about **non-zero functions being orthogonal because only then do they contribute meaningfully and independently to signal decomposition in *Fourier series*. 
+    - Truth be told, we only care about **non-zero functions** being orthogonal because only then do they contribute meaningfully and independently to signal decomposition in *Fourier series*. 
 
 
     
