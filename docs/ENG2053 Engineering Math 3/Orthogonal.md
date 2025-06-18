@@ -73,8 +73,10 @@
 
         Given functions $f(x) = cos(x)$ and $g(x) = cos(x) + cos(3x)$:
         $$
-        \int_{-\pi}^{\pi} f(x)g(x) dx = \int_{-\pi}^{\pi} cos(x) [cos(x) + cos(3x)] dx 
-        = \int_{-\pi}^{\pi} cos^2(x) dx + \int_{-\pi}^{\pi} cos(x) cos(3x) dx
+        \begin{aligned}
+        \int_{-\pi}^{\pi} f(x)g(x) \, dx &= \int_{-\pi}^{\pi} \cos(x) \left[ \cos(x) + \cos(3x) \right] \, dx \\
+        &= \int_{-\pi}^{\pi} \cos^2(x) \, dx + \int_{-\pi}^{\pi} \cos(x) \cos(3x) \, dx
+        \end{aligned}
         $$
 
         ```markdown
