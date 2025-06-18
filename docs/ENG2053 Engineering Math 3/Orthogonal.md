@@ -38,9 +38,9 @@
 
 !!! Abstract "Product of even and odd"
 
-    - Odd x Odd = Even
-    - Even x Even = Even
-    - Odd x Even = Odd
+    - Odd $*$ Odd = Even
+    - Even $*$ Even = Even
+    - Odd $*$ Even = Odd
 
 
 ## Orthogonality in Fourier Series
