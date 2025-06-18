@@ -62,14 +62,12 @@
 
         Given functions $f(x) = x$ and $g(x) = 2x$:
         $$
-        \int_{0}^{1} f(x)g(x) dx = \int_{0}^{1} x(2x) dx = 2 \int_{0}^{1} x^2 dx = \left. \frac{x^3}{3} \right|_{0}^{1} = \frac{1}{3}
+        \int_{0}^{1} f(x)g(x) dx = \int_{0}^{1} x(2x) dx = 2 \int_{0}^{1} x^2 dx = \left. \frac{2x^3}{3} \right|_{0}^{1} = \frac{2}{3}
         $$
 
         ```markdown
         Hence, since the product of these functions is not zero, they are non-orthogonal.
         ```
-
-
 
     === "2"
 
