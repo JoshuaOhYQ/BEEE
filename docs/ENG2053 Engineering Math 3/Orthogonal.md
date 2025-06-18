@@ -1,14 +1,14 @@
 # Integral of Periodic Function – Orthogonal / Non- Orthogonal
 
 ## Even & Odd Functions
-- If function is even: $f(-x) = f(x)$
+- If function is **even**: $f(-x) = f(x)$
 
 !!! Example
 
     $f(x) = x^2$  and  $g(x) = cos(x)$ 
     
 
-- If function is odd: $f(-x) = -f(x)$
+- If function is **odd**: $f(-x) = -f(x)$
 
 !!! Example
 
@@ -51,4 +51,25 @@
 - Orthogonality ensures each term in this sum corresponds to an independent frequency component, therefore the coefficients of $a_n$, $a_0$ and $b_n$ can be computed seperately without interference. 
 
 ## Non-Orthogonal Functions 
+- Two functions are not orthogonal if the intergral of their inner product over the interval is nonzero: 
+  $$
+  \int_{a}^{b} f(x)g(x) dx \neq 0
+  $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
