@@ -122,29 +122,23 @@ $$
 $$
 
 
-
-
-
-
-
-
-!!! example
+!!! Tip "Extra info!"
 
     === "Case i ≠ j"
 
-        ``` markdown
-        * Sed sagittis eleifend rutrum
-        * Donec vitae suscipit est
-        * Nulla tempor lobortis orci
-        ```
+        -  Even though the product $f_1(x)f_2(x)$ isn't zero at all points, the positive contributions in some regions are canceled out by negative contributions in others, particularly around where the sine and cosine functions interact.
+
+        - Basically, when you integrate the product $f_1(x)f_2(x)$ over a full period, the total positive and negative areas balance out, resulting in a net integral of zero, confirming that the functions are orthogonal
+
 
     === "Case i = j"
 
-        ``` markdown
-        1. Sed sagittis eleifend rutrum
-        2. Donec vitae suscipit est
-        3. Nulla tempor lobortis orci
-        ```
+        - For this case we will get a positive value from the integral, as:
+
+          $$
+          \int_{\a}^{\b} \f_i(x)f_i(x)  \, dx = \int_{\a}^{\b} \[f_i(x)]^2  \, dx > 0
+          $$
+
 
 
 
