@@ -51,10 +51,33 @@
 - Orthogonality ensures each term in this sum corresponds to an independent frequency component, therefore the coefficients of $a_n$, $a_0$ and $b_n$ can be computed seperately without interference. 
 
 ## Non-Orthogonal Functions 
-- Two functions are not orthogonal if the intergral of their inner product over the interval is nonzero: 
+- Two functions are **non-orthogonal** if the intergral of their inner product over the interval is *nonzero*: 
   $$
   \int_{a}^{b} f(x)g(x) dx \neq 0
   $$
+
+!!! example
+
+    === "1"
+
+        Given functions $f(x) = x$ and $g(x) = 2x$:
+        $$
+        \int_{0}^{1} f(x)g(x) dx = \int_{0}^{1} x(2x) dx = 2 \int_{0}^{1} x^2 dx = \left. \frac{x^3}{3} \right|_{0}^{1} = \frac{1}{3}
+        $$
+
+        ```markdown
+        Hence, since the product of these functions is not zero, they are non-orthogonal.
+        ```
+
+
+
+    === "2"
+
+        ``` markdown
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        ```
 
 
 
