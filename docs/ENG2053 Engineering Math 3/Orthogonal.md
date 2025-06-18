@@ -60,7 +60,7 @@
 
     === "1"
 
-        Given functions $f(x) = x$ and $g(x) = 2x$:
+        **Given functions** $f(x) = x$ **and** $g(x) = 2x$**:**
         $$
         \int_{0}^{1} f(x)g(x) dx = \int_{0}^{1} x(2x) dx = 2 \int_{0}^{1} x^2 dx = \left. \frac{2x^3}{3} \right|_{0}^{1} = \frac{2}{3}
         $$
@@ -71,7 +71,7 @@
 
     === "2"
 
-        Given functions \( f(x) = \cos(x) \) and \( g(x) = \cos(x) + \cos(3x) \):
+        **Given functions** \( f(x) = \cos(x) \) **and** \( g(x) = \cos(x) + \cos(3x) \)**:**
 
         $$
         \begin{align*}
