@@ -71,11 +71,16 @@
 
     === "2"
 
-        ``` markdown
-        1. Sed sagittis eleifend rutrum
-        2. Donec vitae suscipit est
-        3. Nulla tempor lobortis orci
+        Given functions $f(x) = cos(x)$ and $g(x) = cos(x) + cos(3x)$:
+        $$
+        \int_{-\pi}^{\pi} f(x)g(x) dx = \int_{-\pi}^{\pi} cos(x) [cos(x) + cos(3x)] dx 
+        = \int_{-\pi}^{\pi} cos^2(x) dx + \int_{-\pi}^{\pi} cos(x) cos(3x) dx
+        $$
+
+        ```markdown
+        Hence, since the product of these functions is not zero, they are non-orthogonal.
         ```
+        
 
 
 
