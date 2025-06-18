@@ -95,7 +95,12 @@
         ```markdown
         Hence, since the product of these functions contains a non-zero component, there are non-orthogonal.
         ```
-        
+
+!!! Danger "For your information"
+
+    In Fourier series, if two functions are not orthogonal, they will *interfere with each other when decomposing a function*, as they do  not exhibit the same **clean speration** as orthogonal functions making analysis more complex!
+
+ 
 
 
 
