@@ -81,12 +81,12 @@
 
         The first integral:
         $$
-        \int_{\-pi}^{\pi} \cos^2(x) \, dx > 0
+        \int_{-\pi}^{\pi} \cos^2(x) \, dx > 0
         $$
 
         The second integral:
         $$
-        \int_{\-pi}^{\pi} \cos(x) cos(3x) \, dx = 0
+        \int_{-\pi}^{\pi} \cos(x) cos(3x) \, dx = 0
         $$
 
         Overall:
