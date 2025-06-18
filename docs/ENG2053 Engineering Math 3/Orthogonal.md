@@ -117,6 +117,7 @@
   \int_{a}^{b} f_i(x) f_j(x) \, dx = 
   \begin{cases} 
   0 & \text{if } i \neq j \\ 
+  
   c > 0 & \text{if } i = j 
   \end{cases}
   $$
