@@ -59,10 +59,14 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/custom.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
-  - javascripts/mathjax-config.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 markdown_extensions:
   - admonition
@@ -85,7 +89,6 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.arithmatex:
       generic: true
-      inline_syntax: ['$', '$']
   - pymdownx.snippets
   - def_list
   - footnotes
