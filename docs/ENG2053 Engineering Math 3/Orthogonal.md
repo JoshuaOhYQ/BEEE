@@ -123,7 +123,23 @@
 
 
 
-!!! note 
+!!! example
+
+    === "Case i ≠ j"
+
+        ``` markdown
+        * Sed sagittis eleifend rutrum
+        * Donec vitae suscipit est
+        * Nulla tempor lobortis orci
+        ```
+
+    === "Case i = j"
+
+        ``` markdown
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        ```
 
 
 
