@@ -71,7 +71,8 @@
 
     === "2"
 
-        Given functions $f(x) = cos(x)$ and $g(x) = cos(x) + cos(3x)$:
+        Given functions \( f(x) = \cos(x) \) and \( g(x) = \cos(x) + \cos(3x) \):
+
         $$
         \begin{align*}
         \int_{-\pi}^{\pi} f(x)g(x) \, dx &= \int_{-\pi}^{\pi} \cos(x) \left[ \cos(x) + \cos(3x) \right] \, dx \\
@@ -79,19 +80,19 @@
         \end{align*}
         $$
 
-        The first integral:
+        **First integral:**
         $$
         \int_{-\pi}^{\pi} \cos^2(x) \, dx > 0
         $$
 
-        The second integral:
+        **Second integral:**
         $$
-        \int_{-\pi}^{\pi} \cos(x) cos(3x) \, dx = 0
+        \int_{-\pi}^{\pi} \cos(x) \cos(3x) \, dx = 0
         $$
 
-        Overall:
+        **Overall result:**
         $$
-        \int_{-\pi}^{\pi} f(x)g(x) \, dx = non-zero
+        \int_{-\pi}^{\pi} f(x)g(x) \, dx = \text{non-zero}
         $$
 
         ```markdown
