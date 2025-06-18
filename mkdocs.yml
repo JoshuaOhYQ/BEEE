@@ -1,115 +1,14 @@
-site_name: BEEE notes 
-site_url: https://mydomain.org/mysite
-site_author: Joshua OhYQ
-copyright: "Copyright © 2025 Joshua OhYQ"
-
+site_name: BEEE Notes
 theme:
   name: material
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    - content.tooltips
-    - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.sections
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
-  icon:
-    admonition:
-      note: material/note-outline
-      abstract: material/format-list-checks
-      info: material/information
-      tip: material/lightbulb-on
-      success: material/check-bold
-      question: material/help-circle
-      warning: material/alert
-      failure: material/close-thick
-      danger: material/flash
-      bug: material/bug
-      example: material/test-tube
-      quote: material/format-quote-close
-    annotation: material/plus-circle
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://joshuaohyq.github.io/AI-Python/
-      name: Joshua Oh's GitHub
-
-extra_css:
-  - stylesheets/extra.css
-  - stylesheets/custom.css
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - admonition
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.blocks.caption
   - pymdownx.arithmatex:
       generic: true
       inline_syntax: ['$', '$']
-  - pymdownx.snippets
-  - def_list
-  - footnotes
-  - abbr
-  - attr_list
-  - md_in_html
-  - toc:
-      permalink: true
-      title: Table of Content
+  - toc
+  - admonition
 
-nav:
-  - Home: index.md
-
-  - "ETC1023: Intrumentation, Measures & Control":
-    - "Chapter1: Introduction": "ETL1023 Instrumentation/Chapter1"
-    - "Chapter2: Instrument types & Performance": "ETL1023 Instrumentation/Chapter2"
-    - "Chapter3: Measurement Uncertainty": "ETL1023 Instrumentation/Chapter3"
-
-  - "EPM2003: Project Management":
-    - "Wifi": "EPM2003 Project Management/wifi"
-    - "ThingSpeak": "EPM2003 Project Management/ThingSpeak"
-
-  - "ETL 1023: Analogue Electronic":
-    - "Chapter 3: Rectifier": "ETL1023 Analogue Electronic/Rectifier"
-
-  - "ENG 2053: Engineering Mathematics 3":
-    - "Chapter 3: Orthogonal & Non-Orthogonal": "ENG2053 Engineering Math 3/Orthogonal"
+extra_javascript:
+  - javascripts/mathjax-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
