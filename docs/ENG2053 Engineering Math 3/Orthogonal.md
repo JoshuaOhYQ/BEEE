@@ -90,7 +90,9 @@
         $$
 
         Overall:
-        $$\int_{-\pi}^{\pi} f(x)g(x) \, dx =$$ non-zero
+        $$
+        \int_{-\pi}^{\pi} f(x)g(x) \, dx = non-zero
+        $$
 
         ```markdown
         Hence, since the product of these functions contains a non-zero component, there are non-orthogonal.
@@ -100,7 +102,9 @@
 
     In Fourier series, if two functions are not orthogonal, they will *interfere with each other when decomposing a function*, as they do  not exhibit the same **clean speration** as orthogonal functions making analysis more complex!
 
- 
+
+## Orthogonal Functions
+
 
 
 
