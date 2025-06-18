@@ -105,7 +105,7 @@
 
 
 ## Orthogonal Functions
-- Two non-zero functions are **orthogonal** if the integral of their inner product over the interval is *zero*:  
+- Two non-zero functions are **orthogonal** if the integral of their inner product over the interval is *zero*:
 
   $$
   \int_{a}^{b} f(x)g(x) \, dx = 0
