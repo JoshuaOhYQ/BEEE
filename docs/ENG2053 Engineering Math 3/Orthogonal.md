@@ -105,12 +105,12 @@
 
 
 ## Orthogonal Functions
-- Two non-zero functions are **orthogonal** if the intergral of their inner product over the interval is *zero*: 
+- Two non-zero functions are **orthogonal** if the integral of their inner product over the interval is *zero*:  
   $$
-  \int_{a}^{b} f(x)g(x) dx = 0
+  \int_{a}^{b} f(x)g(x) \, dx = 0
   $$
 
-- A set of non-zero functions are said to be **mutually orthogonal** on a ≤ x ≤ b, if $f_i(x)$ and $f_j(x)$ are orthogonal for every $i \neq j$. So, 
+- A set of non-zero functions are said to be **mutually orthogonal** on \( a \leq x \leq b \), if \( f_i(x) \) and \( f_j(x) \) are orthogonal for every \( i \neq j \). So,  
   $$
   \int_{a}^{b} f_i(x) f_j(x) \, dx = 
   \begin{cases} 
