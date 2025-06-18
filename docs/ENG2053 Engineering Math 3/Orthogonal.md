@@ -139,7 +139,15 @@ $$
           \int_{\a}^{\b} \f_i(x)f_i(x)  \, dx = \int_{\a}^{\b} \[f_i(x)]^2  \, dx > 0
           $$
 
+!!! Warning "Please take note!"
 
+    Functions must be non-zero, otherwise:
+
+    If $f(x) = 0$, then \int f(x)g(x) dx = 0 for any $g(x)$ 
+
+    
+
+    
 
 
 
