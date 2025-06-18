@@ -114,12 +114,10 @@
 - A set of non-zero functions is said to be **mutually orthogonal** on \( a \leq x \leq b \), if \( f_i(x) \) and \( f_j(x) \) are orthogonal for every \( i \neq j \). So,
 
   $$
-  f(x) = \left\{
-  \begin{array}{ll}
-    x^2 & \text{if } x < 0 \\\\
-    x + 1 & \text{if } x \geq 0
-  \end{array}
-  \right.
+  f(x) = \begin{cases}
+  x^2 & \text{if } x < 0 \\
+  x+1 & \text{if } x \geq 0
+  \end{cases}
   $$
 
 
