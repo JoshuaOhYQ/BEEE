@@ -79,8 +79,21 @@
         \end{aligned}
         $$
 
+        The first integral:
+        $$
+        \int_{\-pi}^{\pi} \cos^2(x) \, dx > 0
+        $$
+
+        The second integral:
+        $$
+        \int_{\-pi}^{\pi} \cos(x) cos(3x) \, dx = 0
+        $$
+
+        Overall:
+        $$\int_{-\pi}^{\pi} f(x)g(x) \, dx =$$ non-zero
+
         ```markdown
-        Hence, since the product of these functions is not zero, they are non-orthogonal.
+        Hence, since the product of these functions contains a non-zero component, there are non-orthogonal.
         ```
         
 
