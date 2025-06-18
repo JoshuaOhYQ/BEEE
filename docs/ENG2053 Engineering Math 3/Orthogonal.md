@@ -122,13 +122,13 @@ $$
 $$
 
 
-!!! Tip "Extra info!"
+!!! Tip "Extra info"
 
     === "Case i ≠ j"
 
         -  Even though the product $f_1(x)f_2(x)$ isn't zero at all points, the positive contributions in some regions are canceled out by negative contributions in others, particularly around where the sine and cosine functions interact.
 
-        - Basically, when you integrate the product $f_1(x)f_2(x)$ over a full period, the total positive and negative areas balance out, resulting in a net integral of zero, confirming that the functions are orthogonal
+        - Basically, when you integrate the product $f_1(x)f_2(x)$ over a full period, the total positive and negative areas balance out, resulting in a net integral of zero, confirming that the functions are orthogonal.
 
 
     === "Case i = j"
@@ -145,7 +145,7 @@ $$
 
     If $f(x) = 0$, then \int f(x)g(x) dx = 0 for any $g(x)$ 
 
-    
+
 
     
 
