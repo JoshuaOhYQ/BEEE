@@ -113,12 +113,14 @@
 
 - A set of non-zero functions is said to be **mutually orthogonal** on \( a \leq x \leq b \), if \( f_i(x) \) and \( f_j(x) \) are orthogonal for every \( i \neq j \). So:
 
-  $$
-  \int_{a}^{b} f_i(x) f_j(x) \, dx = \begin{cases}
-  0 & \text{if } i \neq j \\
-  c > 0 & \text{if } i = j
-  \end{cases}
-  $$
+$$
+\int_{a}^{b} f_i(x)\, f_j(x)\, dx =
+\begin{cases}
+  0       & \text{if } i \ne j \\
+  c > 0   & \text{if } i = j
+\end{cases}
+$$
+
 
 
 
