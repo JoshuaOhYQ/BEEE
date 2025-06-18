@@ -43,6 +43,10 @@
     - Odd x Even = Odd
 
 
+## Orthogonality in Fourier Series
+- In Fourier series, **sine and cosine** functions are examined for their orthogonality, as it shows how these functions interact over one period.
 
+- In Fourier series, we represent periodic function as a sum of sines and cosines. 
 
+- Orthogonality ensures each term in this sum corresponds to an independent frequency component, therefore the coefficients of ```$$ a_n $$, $$ a_0 $$ and $$ b_n $$``` can be computed seperately without interference. 
 
