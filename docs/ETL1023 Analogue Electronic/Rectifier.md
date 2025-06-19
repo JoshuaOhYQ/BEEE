@@ -84,17 +84,18 @@ where, $V_S$ : Peak Source Voltage, $V_D$ : Diode's Forward Voltage Drop (≈ 0.
     If $I_{\text{forward}} = 93 mA$ , then we must select a diode with $I_F > 93 mA$ 
 
 To find PIV for diode:
-$PIV = V_{peak}$ 
+$$PIV = V_{peak}$$
 where, $V_{peak}$ is the peak input voltage, $V_S$
 
 **Hence, diode's PIV rating or** $V_{BR}$ **must be more than** $1.5 PIV$ .
 
-!!! example 
+!!! example
 
-    If $V_S = 10 V$ , then $PIV = 10 V$, we have to choose a diode with:
+    If \( V_S = 10\,\text{V} \), then the peak inverse voltage (PIV) is also \( 10\,\text{V} \).  
+    We must choose a diode with a breakdown voltage \( V_{\text{BR}} \) greater than 1.5 times the PIV:
+
     $$
-    V_{BR} > 1.5 
-    1.5 x 10 V = 15 V
+    V_{\text{BR}} > 1.5 \times 10\,\text{V} = 15\,\text{V}
     $$
 
 
