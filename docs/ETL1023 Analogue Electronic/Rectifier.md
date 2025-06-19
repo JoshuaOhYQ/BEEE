@@ -10,7 +10,7 @@
 
 ## Half-wave Rectifier
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/Halfwave1.png?raw=true" alt="HWRectifier">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave1.png?raw=true" alt="HWRectifier">
 </div> 
 
 A *diode* is connected to an *ac source* and to a *load resistor*, $R_L$ forming a **half-wave rectifier**.
@@ -22,14 +22,14 @@ If we use an *ideal model* for the **diode**, we basically ignore the *voltage d
 If we use a *constant voltage drop model* for the **diode**, we have to take into account the voltage drop , $V_D$ when *forward biased* of the **diode** as a constant value, typically around **0.7 V for silicon diode** and **0.3 V for germanium diode**. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
 </div>
 
 ### Operation 
 - Using the **Constant Voltage Drop Model**, when the sinusoidal input voltage, $V_S$ goes positive, **diode** is *forward-biased* and *conducts current*. Current passes through load resistor and produces an output voltage across the load resistor, which is the $V_O$ or $V_S - V_D$ in the graph:  
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave2.png?raw=true" alt="HWRectifierFB">
 </div>
 
 
