@@ -60,6 +60,10 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 - The PIV rating of the diode *must be at least the peak input voltage*, $I_{peak}$.
 - If the reverse voltage exceeds diode's PIV rating, breakdown of diode can occur, potentially damaging or destroying the diode. 
 
+!!! Warning "Recommendation"
+
+    It is recommeneded to have $V_{BR} > 1.5 PIV$, where $V_(BR)$ is the *diode's reverse breakdown voltage*. This is to provide a safety margin for voltage spikes or transients. 
+
 
 
 
