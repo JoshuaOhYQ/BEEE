@@ -84,7 +84,9 @@ Where, $V_S$ : Peak Source Voltage, $V_D$ : Diode's Forward Voltage Drop (≈ 0.
     If $I_{\text{forward}} = 93 mA$ , then we must select a diode with $I_F > 93 mA$ 
 
 To find PIV for diode:
-$$PIV = V_{peak}$$
+$$
+PIV = V_{peak}
+$$
 where, $V_{peak}$ is the peak input voltage, $V_S$
 
 **Hence, diode's PIV rating or** $V_{BR}$ **must be more than** $1.5 PIV$ .
@@ -97,6 +99,18 @@ where, $V_{peak}$ is the peak input voltage, $V_S$
     $$
     V_{\text{BR}} > 1.5 \times 10\,\text{V} = 15\,\text{V}
     $$
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
