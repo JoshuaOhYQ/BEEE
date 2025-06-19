@@ -45,13 +45,23 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 ### Consideration for diode selection
 
 #### Diode's current-handling capability
-- Refers to the *maximum forward current* it can safely conduct without damage 
+- Refers to the *maximum forward current* it can safely conduct without damage. 
 - During the positive half-cycle of input AC Voltage, the diode conducts current to the load. This current *must not exceed the diode's rated* $I_F$.
 - This is because excessive current raises the diode's internal temperature.
 
 !!! example
 
     If the **input AC peak current**, $I_{peak} = 100 mA$, the diode's rated $I_F$ must be $> 100 mA$
+
+#### Diode's peak inverse voltage (PIV)
+- Refers to the *maximum reverse voltage* across the diode during the negative half-cycle.
+- It is used to determine the *maximum reverse voltage (PIV rating)* the diode can withstand without breaking down.
+- During the negative half-cycle, the diode is reverse-biased. The **diode takes the entire voltage from the source when it is reverse-biased** according to Kirchoff's Voltage Law, as voltage across resistor is zero. 
+- The PIV rating of the diode *must be at least the peak input voltage*, $I_{peak}$.
+- If the reverse voltage exceeds diode's PIV rating, breakdown of diode can occur, potentially damaging or destroying the diode. 
+
+
+
 
 
 
