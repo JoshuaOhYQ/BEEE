@@ -27,7 +27,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
 !!! note "Barrier Potential"
 
-    Basically, when using a diode, *input voltage* must overcome the **barrier potential or voltage drop of 0.7 V (silicon)** before diode can become forward-biased. This results in a output, $V_O$ with peak value that is 0.7 V less than peak value of input, $V_S$ :
+    Basically, when using a diode, *input voltage* must overcome the **barrier potential or voltage drop of 0.7 V (silicon)** before diode can become forward-biased. This results in a **output**, $V_O$ with peak value that is **0.7 V less than peak value of input**, $V_S$ :
     $$
     V_{O} = V_{S} - 0.7 V
     $$  
