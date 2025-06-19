@@ -40,7 +40,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
 - Since, the $V_O$ does not change polarity, it is a pulsating dc voltage. 
 
-- If we were using an **Ideal Diode Model**, the graph would look the same as the output *Constant Voltage Drop Model*, but the $V_O$ will not be considering the **voltage drop of diode**, hence during the *positive cycle*, the $V_O$ will be just the $V_S$ or the source voltage in the graph above, while for **Constant Voltage Drop Model**, it will be $V_S - V_D$. 
+- If we were using an **Ideal Diode Model**, the graph would look the same as the output *Constant Voltage Drop Model*, but the $V_O$ will not be considering the **voltage drop of diode**, hence during the *positive cycle*, the $V_O$ will be just the $V_S$ or same as the source voltage in the graph above, while for **Constant Voltage Drop Model**, it will be $V_S - V_D$. 
 
 
 
