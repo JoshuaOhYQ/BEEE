@@ -10,7 +10,7 @@
 
 ## Half-wave Rectifier
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/88f6455cd04a762483d9488db68318fa35be0577/docs/ETL1023%20Analogue%20Electronic/BlockDC.png?raw=true" alt="BlockDC">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/Halfwave1.png?raw=true" alt="HWRectifier">
 </div> 
 
 A *diode* is connected to an *ac source* and to a *load resistor*, $R_L$ forming a **half-wave rectifier**.
@@ -22,7 +22,7 @@ If we use an *ideal model* for the **diode**, we basically ignore the *voltage d
 If we use a *constant voltage drop model* for the **diode**, we have to take into account the voltage drop , $V_D$ when *forward biased* of the **diode** as a constant value, typically around **0.7 V for silicon diode** and **0.3 V for germanium diode**. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/88f6455cd04a762483d9488db68318fa35be0577/docs/ETL1023%20Analogue%20Electronic/BlockDC.png?raw=true" alt="BlockDC">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
 </div>
 
 
