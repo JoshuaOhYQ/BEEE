@@ -42,7 +42,16 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
 - If we were using an **Ideal Diode Model**, the graph would look the same as the output *Constant Voltage Drop Model*, but the $V_O$ will not be considering the **voltage drop of diode**, hence during the *positive cycle*, the $V_O$ will be just the $V_S$ or same as the source voltage in the graph above, while for **Constant Voltage Drop Model**, it will be $V_S - V_D$. 
 
+### Consideration for diode selection
 
+#### Diode's current-handling capability
+- Refers to the *maximum forward current* it can safely conduct without damage 
+- During the positive half-cycle of input AC Voltage, the diode conducts current to the load. This current *must not exceed the diode's rated* $I_F$.
+- This is because excessive current raises the diode's internal temperature.
+
+!!! example
+
+    If the **input AC peak current**, $I_peak = 100 mA$, the diode's rated $I_F$ must be $> 100 mA$!
 
 
 
