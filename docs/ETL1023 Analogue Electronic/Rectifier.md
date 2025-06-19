@@ -25,9 +25,12 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
 </div>
 
+### Operation 
+- Using the **Constant Voltage Drop Model**, when the sinusoidal input voltage, $V_S$ goes positive, **diode** is *forward-biased* and *conducts current*. Current passes through load resistor and produces an output voltage across the load resistor, which is the $V_O$ or $V_S - V_D$ in the graph:  
 
-
-
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/696b22e4cab1b9c39dadfe8f621443e1fefefefa/docs/ETL1023%20Analogue%20Electronic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
+</div>
 
 
 
