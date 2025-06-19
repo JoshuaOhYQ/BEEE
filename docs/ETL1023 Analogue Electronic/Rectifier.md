@@ -64,8 +64,17 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
     It is recommeneded to have $V_{BR} > 1.5 PIV$, where $V_{BR}$ is the *diode's reverse breakdown voltage*. This is to provide a safety margin for voltage spikes or transients. 
 
+#### Example consideration with graphs
 
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/a36e4653f1f2d635f14db6240efc684a3d73cfa9/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave3.png?raw=true" alt="HWRectifierRB">
+</div>
 
+To calculate the peak current through the diode during the positive half-cycle:
+$$
+I_{\text{forward}} = \frac{V_S - V_D}{R_{\text{load}}}
+$$
+where, $V_S$: Peak Source Voltage, $V_D$: Diode's Forward Voltage Drop (≈ 0.7 V), $R_{load}$: Load Resistance
 
 
 
