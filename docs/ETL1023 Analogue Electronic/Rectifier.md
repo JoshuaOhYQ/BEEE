@@ -51,7 +51,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
 !!! example
 
-    If the **input AC peak current**, $I_peak = 100 mA$, the diode's rated $I_F$ must be $> 100 mA$!
+    If the **input AC peak current**, $I_peak = 100 mA$, the diode's rated $I_F$ must be $> 100 mA$
 
 
 
