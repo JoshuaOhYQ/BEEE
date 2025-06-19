@@ -62,7 +62,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 
 !!! Warning "Recommendation"
 
-    It is recommeneded to have $V_{BR} > 1.5 PIV$, where $V_(BR)$ is the *diode's reverse breakdown voltage*. This is to provide a safety margin for voltage spikes or transients. 
+    It is recommeneded to have $V_{BR} > 1.5 PIV$, where $V_{BR}$ is the *diode's reverse breakdown voltage*. This is to provide a safety margin for voltage spikes or transients. 
 
 
 
