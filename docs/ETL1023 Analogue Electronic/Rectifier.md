@@ -74,7 +74,7 @@ To calculate the peak current through the diode during the positive half-cycle:
 $$
 I_{\text{forward}} = \frac{V_S - V_D}{R_{\text{load}}}
 $$
-where, $V_S$ : Peak Source Voltage, $V_D$ : Diode's Forward Voltage Drop (≈ 0.7 V), $R_{load}$ : Load Resistance
+Where, $V_S$ : Peak Source Voltage, $V_D$ : Diode's Forward Voltage Drop (≈ 0.7 V), $R_{load}$ : Load Resistance
 
 **Hence, diode's current rating,** $I_F$ **must exceed the value of** $I_{\text{forward}}$ . 
 
