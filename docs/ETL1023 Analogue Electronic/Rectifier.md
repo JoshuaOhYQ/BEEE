@@ -25,6 +25,13 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
 </div>
 
+!!! note "Barrier Potential""
+
+    Basically, when using a diode, *input voltage* must overcome the *barrier potential or voltage drop of 0.7 V (silicon)* before diode can become forward-biased. This results in a output, $V_O with peak value that is 0.7 V less than peak value of input, $V_S$ :
+    $$
+    V_{O} = V_{S} - 0.7 V
+    $$  
+
 ### Operation 
 - Using the **Constant Voltage Drop Model**, when the sinusoidal input voltage, $V_S$ goes *positive*, **diode** is *forward-biased* and *conducts current*. Current passes through load resistor and produces an output voltage across the load resistor, which is the $V_O$ or $V_S - V_D$ in the graph:  
 
@@ -41,6 +48,10 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 - Since, the $V_O$ does not change polarity, it is a pulsating dc voltage. 
 
 - If we were using an **Ideal Diode Model**, the graph would look the same as the output *Constant Voltage Drop Model*, but the $V_O$ will not be considering the **voltage drop of diode**, hence during the *positive cycle*, the $V_O$ will be just the $V_S$ or same as the source voltage in the graph above, while for **Constant Voltage Drop Model**, it will be $V_S - V_D$. 
+
+!!! Info 
+
+    It is usually acceptable to use the **ideal diode model**, which neglects the effect of *barrier potential (voltage drop)*, when the peak value of *applied voltage* is **much greater** than the *barrier potential (voltage drop)* 
 
 ### Consideration for diode selection
 
@@ -87,7 +98,7 @@ To find PIV for diode:
 $$
 PIV = V_{peak}
 $$
-where, $V_{peak}$ is the peak input voltage, $V_S$
+Where, $V_{peak}$ is the peak input voltage, $V_S$
 
 **Hence, diode's PIV rating or** $V_{BR}$ **must be more than** $1.5 PIV$ .
 
