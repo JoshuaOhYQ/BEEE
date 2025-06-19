@@ -111,7 +111,8 @@ Where, $V_{peak}$ is the peak input voltage, $V_S$
     V_{\text{BR}} > 1.5 \times 10\,\text{V} = 15\,\text{V}
     $$
 
-
+## Full-wave Rectifier 
+**Full-wave rectifier** allows unidirectional (one-way) current through the load during the *entire 360° of the input cycle*. Whereas, **half-wave rectifier** only allows current through the load only during *one-half of the cycle*. Thus, **full-wave rectification** will produce an output voltage with a frequency *twice the input frequency* and *pulsates every half-cycle of input*.
 
 
 
