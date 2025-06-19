@@ -25,7 +25,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
 </div>
 
-!!! note "Barrier Potential""
+!!! note "Barrier Potential"
 
     Basically, when using a diode, *input voltage* must overcome the *barrier potential or voltage drop of 0.7 V (silicon)* before diode can become forward-biased. This results in a output, $V_O with peak value that is 0.7 V less than peak value of input, $V_S$ :
     $$
