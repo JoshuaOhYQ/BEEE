@@ -176,7 +176,7 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="FullwaveCT3">
 </div>
 
-!!! Warning "Ideal diode model**
+!!! Warning "Ideal diode model"
 
     For **Ideal diode model**, instead of $V_S - V_D$ , it will be just $V_S$ , same value as the input voltage.  
 
