@@ -187,7 +187,7 @@ In a center-tapped rectifier, during the positive half-cycle, one diode $D_1$ co
 To derive the **Peak Inverse Voltage (PIV)** for diodes in a **center-tapped full-wave rectifier**: 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="FullwaveCT3">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3a26a68cfb3c35e75079b8e27be6578a948e6e8b/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVCTFWR.png?raw=true" alt="FullwaveCT3">
 </div>
 
 When diode \( D_2 \) is in reverse bias, the voltage across \( D_2 \) is:
