@@ -220,7 +220,8 @@ Substituting \( V_O = V_S - V_D \):
 
     **PIV (Peak Inverse Voltage)** is the *maximum reverse voltage of the diode* during the negative cycle when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
 
-
+### Bridge Full-Wave Rectifier Operation 
+- **Bridge Full-Wave Rectifier** is a *full-wave rectifier* **without** the need of a **center-tapped transformer**. It uses **4 diodes**, with arrangements similar to *Wheatstone bridge*:
 
 
 
