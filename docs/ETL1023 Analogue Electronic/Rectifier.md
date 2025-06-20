@@ -159,7 +159,27 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
 
 - As a result, the output current during **both positive and negative** portions of the input cycle through the load will be in the **same direction**, hence output voltage across load resistor is a **full-wave rectified dc voltage**.
 
-- On the other hand, if we were using a **constant voltage drop diode model**, the process will be the *same as the ideal diode model*, but we would have to consider the **constant forward voltage drop across the diode**, $V_D$ during **forward-biased**, which are around *0.7 V for silicon diode* and *0.3 V for germanium diode*. Hence, the output peak value will be $V_S - V_D$. 
+- On the other hand, if we were using a **constant voltage drop diode model**, the process will be the *same as the ideal diode model*, but we would have to consider the **constant forward voltage drop across the diode**, $V_D$ during **forward-biased**, which are around *0.7 V for silicon diode* and *0.3 V for germanium diode*. Hence, the output peak value will be $V_S - V_D$ for the complete cycle just like in the graph below. 
+
+- Graph during the **positive half-cycle of input voltage**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT1.png?raw=true" alt="FullwaveCT1">
+</div>
+
+- Graph during the **negative half-cycle of input voltage**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT2.png?raw=true" alt="FullwaveCT2">
+</div>
+
+- Graph of **full complete waveform**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="FullwaveCT3">
+</div>
+
+!!! Warning "Ideal diode model**
+
+    For **Ideal diode model**, instead of $V_S - V_D$ , it will be just $V_S$ , same value as the input voltage.  
+
 
 
 
