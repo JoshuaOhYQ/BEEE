@@ -223,7 +223,9 @@ Substituting \( V_O = V_S - V_D \):
 ### Bridge Full-Wave Rectifier Operation 
 - **Bridge Full-Wave Rectifier** is a *full-wave rectifier* **without** the need of a **center-tapped transformer**. It uses **4 diodes**, with arrangements similar to *Wheatstone bridge*:
 
-
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6d5226ee13d06353193f7445549ec4b90667d957/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge1.png?raw=true" alt="Bridge1">
+</div>
 
 
 
