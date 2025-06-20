@@ -145,7 +145,7 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
 - **Center-tapped rectifier** is a type of *full-wave rectifier* that uses *two diodes connected to the secondary of a center-tapped transformer*:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6c39dde28b20996bc91c08ef7813201fb6df2b83/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferFWR.png?raw=true" alt="CTFW1">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6fdf8e581b8fdf6e4904b4d415cd7ae2ca995bf1/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CTFW1.png?raw=true" alt="CTFW1">
 </div>
 
 !!! Info "Why Center-Tapped"
@@ -155,9 +155,11 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
 
 - Using a **ideal diode model**, during the *positive half-cycle of input voltage*, diode $D_1$ is *forward-biased* and diode $D_2$ is *reverse-biased*. Since, it is **ideal diode**, there will be *no voltage drop* across the diode. The current path is through $D_1$ and load resistor $R_L$. Basically, the output waveform will be $V_S$ same as the *postiive half-cycle of input voltage*. 
 
-- Using a **ideal diode model**, during the *negative half-cycle of input voltage*, diode $D_1$ is *reverse-biased* and diode $D_2$ is *forward-biased*. Since, it is **ideal diode**, there will be *no voltage drop* across the diode. The current path is through $D_2$ and load resistor $R_L$. Basically, the output waveform will be $V_S$ same as the *postiive half-cycle of input voltage*. 
+- Using a **ideal diode model**, during the *negative half-cycle of input voltage*, diode $D_1$ is *reverse-biased* and diode $D_2$ is *forward-biased*. Since, it is **ideal diode**, there will be *no voltage drop* across the diode. The current path is through $D_2$ and load resistor $R_L$. Basically, the output waveform will be $V_S$ same as the *postive half-cycle of input voltage*. 
 
-- As a result, the output current during both positive and negative portions of the input cycle through the load will be in the same direction, hence output voltage across load resistor is a full-wave rectified dc voltage. 
+- As a result, the output current during **both positive and negative** portions of the input cycle through the load will be in the **same direction**, hence output voltage across load resistor is a **full-wave rectified dc voltage**.
+
+- On the other hand, if we were using a **constant voltage drop diode model**, the process will be the *same as the ideal diode model*, but we would have to consider the **constant forward voltage drop across the diode**, $V_D$ during **forward-biased**, which are around *0.7 V for silicon diode* and *0.3 V for germanium diode*. 
 
 
 
