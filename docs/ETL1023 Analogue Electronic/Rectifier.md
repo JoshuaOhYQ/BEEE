@@ -181,6 +181,44 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
     For **Ideal diode model**, instead of $V_S - V_D$ , it will be just $V_S$ , same value as the input voltage.  
 
 
+### Center-Tapped Full-Wave Rectifier PIV
+In a center-tapped rectifier, during the positive half-cycle, one diode $D_1$ conducts and in forward-biased, while the other diode $D_2$ is in reverse-biased. Meanwhile, during the negative half-cycle, the vice versa happens. 
+
+To derive the **Peak Inverse Voltage (PIV)** for diodes in a **center-tapped full-wave rectifier**: 
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="FullwaveCT3">
+</div>
+
+When diode \( D_2 \) is in reverse bias, the voltage across \( D_2 \) is:
+
+\[
+V_{D2} = V_O - (-V_S)
+\]
+
+The waveform reaches its peak/maximum value when \( V_O = V_S - V_D \).  
+
+Since \( D_2 \) is reverse-biased, \( V_{D2} = \text{PIV} \):
+
+\[
+\begin{align*}
+\text{PIV} &= V_O - (-V_S) \\
+\text{Substituting } V_O &= V_S - V_D: \\
+\text{PIV} &= V_S - V_D - (-V_S) \\
+           &= 2V_S - V_D
+\end{align*}
+\]
+
+!!! Success "Final Equation for Center-Tapped Full Wave Rectifier"
+
+    **PIV (Peak Inverse Voltage)** is the maximum voltage the diode can withstand when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
+
+
+
+
+
+
+
 
 
 
