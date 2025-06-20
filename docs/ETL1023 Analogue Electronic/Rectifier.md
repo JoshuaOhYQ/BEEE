@@ -114,7 +114,34 @@ Where, $V_{peak}$ is the peak input voltage, $V_S$
 ## Full-wave Rectifier 
 **Full-wave rectifier** allows unidirectional (one-way) current through the load during the *entire 360° of the input cycle*. Whereas, **half-wave rectifier** only allows current through the load only during *one-half of the cycle*. Thus, **full-wave rectification** will produce an output voltage with a frequency *twice the input frequency* and *pulsates every half-cycle of input*.
 
+### Ideal Model 
+If we use an *ideal model* for the **diode**, we basically ignore the *voltage drop of the diode*, as the the **diode** is a *short circuit* ```R = 0 Ω``` when *forward-biased* and *open circuit* ```R = ∞ Ω``` when *reversed-biased* same like what it is used for in *half-wave rectifier*. 
 
+### Constant Voltage Drop Model
+If we use a *constant voltage drop model* for the **diode** in **full-wave rectifier**, we have to take into account the voltage drop , $V_D$ when *forward biased* of the **diode** as a constant value, typically around **0.7 V for silicon diode** and **0.3 V for germanium diode**. 
+
+Looking at the graph below, the slopes are ±1, as a **full-wave rectifier** inverts the negative half of the input sine wave so that *both positive and negative inputs produce a positive output* for the resistor:
+$$
+V_{out} = |V_{in}|
+$$
+
+Hence, 
+
+$$
+V_{out} = 
+\begin{cases}
+V_{in} & \text{if } V_{in} > 0 \quad (\text{Slope} = +1) \\
+-V_{in} & \text{if } V_{in} < 0 \quad (\text{Slope} = -1)
+\end{cases}
+$$
+
+
+
+Graphically, this forms a **V-shaped curve**, where the output mirrors the input during the positive half and flips it during the negative half. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
+</div>
 
 
 
