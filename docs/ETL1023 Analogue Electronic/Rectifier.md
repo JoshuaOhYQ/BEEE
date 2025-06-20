@@ -153,6 +153,7 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
     **Half of the total secondary voltage** appears between the center tap and each end of the secondary winding (*Each side have same number of turns*, producing 2 equal halves)
 
 
+- Using a **ideal diode model**, during the *positive half-cycle of input voltage*, diode $D_1$ is *forward-biased* and diode $D_2$ is *reverse-biased*. Since, it is **ideal diode**, there will be *no voltage drop* across the diode. The current path is through $D_1$ and load resistor $R_L$. Basically, the output waveform will be $V_S$ same as the *postiive half-cycle of input voltage*. 
 
 
 
