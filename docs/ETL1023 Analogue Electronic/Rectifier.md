@@ -211,7 +211,7 @@ Since \( D_2 \) is reverse-biased, \( V_{D2} = \text{PIV} \):
 
 !!! Success "Final Equation for Center-Tapped Full Wave Rectifier"
 
-    **PIV (Peak Inverse Voltage)** is the maximum voltage the diode can withstand when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
+    **PIV (Peak Inverse Voltage)** is the *maximum reverse voltage of the diode* during the negative cycle when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
 
 
 
