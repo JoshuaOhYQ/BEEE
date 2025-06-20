@@ -137,7 +137,7 @@ $$
 
 
 
-Graphically, this forms a **V-shaped curve**, where the output mirrors the input during the positive half and flips it during the negative half. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
+Graphically, this forms a **V-shaped curve**, where the output mirrors the input during the positive half and flips it during the negative half. The curve near the origin is slightly **flatenned**, meaning *no output until* $|V_{in}|$ *exceeds the diode drops*, $V_D$. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6c39dde28b20996bc91c08ef7813201fb6df2b83/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferFWR.png?raw=true" alt="TCConstantVFW">
