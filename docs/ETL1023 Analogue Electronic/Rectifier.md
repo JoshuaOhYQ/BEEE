@@ -135,17 +135,22 @@ V_{in} & \text{if } V_{in} > 0 \quad (\text{Slope} = +1) \\
 \end{cases}
 $$
 
-
-
 Graphically, this forms a **V-shaped curve**, where the output mirrors the input during the positive half and flips it during the negative half. The curve near the origin is slightly **flatenned**, meaning *no output until* $|V_{in}|$ *exceeds the diode drops*, $V_D$. This can be shown in the graph below, where $V_D$ is the **constant voltage drop of diode**:
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6c39dde28b20996bc91c08ef7813201fb6df2b83/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferFWR.png?raw=true" alt="TCConstantVFW">
 </div>
 
+### Center-Tapped Full-Wave Rectifier Operation
+- **Center-tapped rectifier** is a type of *full-wave rectifier* that uses *two diodes connected to the secondary of a center-tapped transformer*:
 
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6c39dde28b20996bc91c08ef7813201fb6df2b83/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferFWR.png?raw=true" alt="CTFW1">
+</div>
 
+!!! Info "Why Center-Tapped"
 
+    **Half of the total secondary voltage** appears between the center tap and each end of the secondary winding (*Each side have same number of turns*, producing 2 equal halves)
 
 
 
