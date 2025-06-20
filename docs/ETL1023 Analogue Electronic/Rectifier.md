@@ -207,7 +207,7 @@ Since \( D_2 \) is reverse-biased, \( V_{D2} = \text{PIV} \):
 \end{align*}
 \]
 
-Substituting \( V_O = V_S - V_D \) (when the output is at its peak):
+Substituting \( V_O = V_S - V_D \):
 
 \[
 \begin{align*}
