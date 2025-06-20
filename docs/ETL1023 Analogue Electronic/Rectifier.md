@@ -203,8 +203,15 @@ Since \( D_2 \) is reverse-biased, \( V_{D2} = \text{PIV} \):
 \[
 \begin{align*}
 \text{PIV} &= V_O - (-V_S) \\
-\text{Substituting } V_O &= V_S - V_D: \\
-\text{PIV} &= V_S - V_D - (-V_S) \\
+           &= V_O + V_S
+\end{align*}
+\]
+
+Substituting \( V_O = V_S - V_D \) (when the output is at its peak):
+
+\[
+\begin{align*}
+\text{PIV} &= (V_S - V_D) + V_S \\
            &= 2V_S - V_D
 \end{align*}
 \]
