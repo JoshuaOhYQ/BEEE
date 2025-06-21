@@ -269,7 +269,7 @@ $$
 0 - V_{D2} = -V_{D2}
 $$
 
-This is also the voltage on the **left side of $D_3$ . 
+This is also the voltage on the **left side of** $D_3$ . 
 
 Voltage on the right side of $D_3$ is $V_O$, **due to the ground** being on the other side of the resistor. 
 
