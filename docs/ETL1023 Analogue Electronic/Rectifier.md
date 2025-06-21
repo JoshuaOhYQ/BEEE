@@ -218,7 +218,7 @@ Substituting \( V_O = V_S - V_D \):
 
 !!! Success "Final Equation for Center-Tapped Full Wave Rectifier"
 
-    **PIV (Peak Inverse Voltage)** is the *maximum reverse voltage of the diode* during the negative cycle when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
+    **PIV (Peak Inverse Voltage)** is the *maximum reverse voltage of the diode* when reverse-biased. Hence in this case, for **center-tapped full wave rectifier**, it is \( \text{PIV} = 2V_S - V_D \) .  
 
 ### Bridge Full-Wave Rectifier Operation 
 - **Bridge Full-Wave Rectifier** is a *full-wave rectifier* **without** the need of a **center-tapped transformer**. It uses **4 diodes**, with arrangements similar to *Wheatstone bridge*:
@@ -257,12 +257,56 @@ $$
 
 
 ### Bridge Full-Wave Rectifier PIV
+To derive the PIV for **Bridge Full-Wave Rectifier**, we look at the circuit during positive input cycle, when diodes $D_1$ and $D_2$ are **forward-biased** and diodes $D_3$ and $D_4$ are **reverse-biased**:
 
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3a26a68cfb3c35e75079b8e27be6578a948e6e8b/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVCTFWR.png?raw=true" alt="PIVBridge">
+</div>
 
+Voltage after $D_2$ is
 
+$$
+0 - V_{D2} = -V_{D2}
+$$
 
+This is also the voltage on the **left side of $D_3$ . 
 
+Voltage on the right side of $D_3$ is $V_O$, **due to the ground** being on the other side of the resistor. 
 
+When $D_3$ is in reverse-biased, reverse voltage across $D_3$ is
+
+$$
+V_{D3} = V_O - (-V_{D2})
+V_{D3} = V_O + V_{D2}
+$$
+
+The waveform reaches its peak/maximum value when
+
+$$
+V_{O} = V_S - 2V_{D}
+$$
+
+Since \( D_3 \) is reverse-biased, we can use \( V_{D3} = \text{PIV} \):
+
+\[
+\begin{align*}
+\text{PIV} &= V_O - (-V_{D2}) \\
+           &= V_O + V_{D2}
+\end{align*}
+\]
+
+Substituting \( V_O = V_S - 2V_D \) and assuming that all diodes are the same:
+
+\[
+\begin{align*}
+\text{PIV} &= (V_S - 2V_D) + V_D \\
+           &= V_S - V_D
+\end{align*}
+\]
+
+!!! Success "Final Equation for Bridge Full Wave Rectifier"
+
+    **PIV (Peak Inverse Voltage)** is the *maximum reverse voltage of the diodes* when reverse-biased. Hence in this case, for **bridge full wave rectifier**, it is \( \text{PIV} = V_S - V_D \) .  
 
 
 
