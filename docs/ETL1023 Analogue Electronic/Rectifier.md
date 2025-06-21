@@ -392,7 +392,7 @@ $$
 - At $t = o$ , $V_C = 0$ , **capacitor is initially uncharged**. The diode becomes **forward-biased** as soon as $V_S > 0$ , conducts current and the **capacitor charges up** as long as $v_s > V_C$ :
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN1">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN1.png?raw=true" alt="CapN1">
 </div>
 
 - The capacitor tracks the input voltage while it's rising. When the input voltage **reaches its peak**, the capacitor **charges fully**:
@@ -404,32 +404,32 @@ $$
 , until the diode turns on again in the next cycle:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN2.png?raw=true" alt="CapN2">
 </div>
 
 
 - Capacitor continue to **discharge**, as the diode is still off and in **reverse-biased**. At this point, there is no current flow from the source, but the capacitor **continues to power the load R** and the output voltage (capacitor voltage) gradually **drops even more** during this time:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN3">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN3.png?raw=true" alt="CapN3">
 </div>
 
 - In the next cycle, when the *input voltage again excceds the decayed capacitor voltage*, $v_s > V_{C}(t)$ , the diode becomes **forward-biased** again and the capacitor is **topped up and charged** back to the new peak value of $V_S$ :
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN4">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN4.png?raw=true" alt="CapN4">
 </div>
 
 - The cycle repeats itself:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN5">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN5.png?raw=true" alt="CapN5">
 </div>
 
 - As a result, the output voltage, $V_O = V_C$ is not perfectly flat, but a rippled DC: 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapN6">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN6.png?raw=true" alt="CapN6">
 </div>
 
 !!! note 
