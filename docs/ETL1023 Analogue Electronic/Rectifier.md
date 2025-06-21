@@ -260,7 +260,7 @@ $$
 To derive the PIV for **Bridge Full-Wave Rectifier**, we look at the circuit during positive input cycle, when diodes $D_1$ and $D_2$ are **forward-biased** and diodes $D_3$ and $D_4$ are **reverse-biased**:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3a26a68cfb3c35e75079b8e27be6578a948e6e8b/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVCTFWR.png?raw=true" alt="PIVBridge">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="PIVBridge">
 </div>
 
 Voltage after $D_2$ is
