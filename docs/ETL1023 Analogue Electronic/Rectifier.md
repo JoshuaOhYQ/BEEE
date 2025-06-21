@@ -315,11 +315,11 @@ Substituting \( V_O = V_S - 2V_D \) and assuming that all diodes are the same:
 - This **pulsating DC output** is still **unsuitable** as a dc power supply, as the *voltage constantly varies between peak voltage and zero* due to its *pulsating nature*. 
 
 - This **pulsating nature** can be resolved with a **filter capacitor**:
-  
-  1. The **capacitor** is placed in parallel with the load to smooth the output voltage.
-  2. The capacitor **charges during voltage peaks** and **discharges during voltage valleys**.
-  3. This helps to **reduce the ripple voltage** (i.e., the remaining small fluctuations).
-  4. As a result, the capacitor filter **smooths the output voltage to a near-constant DC**.
+
+1. The **capacitor** is placed in parallel with the load to smooth the output voltage.
+2. The capacitor **charges during voltage peaks** and **discharges during voltage valleys**.
+3. This helps to **reduce the ripple voltage** (i.e., the remaining small fluctuations).
+4. As a result, the capacitor filter **smooths the output voltage to a near-constant DC**.
 
 
 ### Operation (Ideal diode & capacitor)
