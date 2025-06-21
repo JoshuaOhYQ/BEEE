@@ -435,6 +435,7 @@ $$
 !!! note 
 
     Basically, the capacitor:
+    
     - quickly **charges** to the peak when the diode **conducts** 
     - **discharges** slowly through R **until the next peak** 
 
