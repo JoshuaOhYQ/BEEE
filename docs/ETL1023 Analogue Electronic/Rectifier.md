@@ -321,3 +321,61 @@ Substituting \( V_O = V_S - 2V_D \) and assuming that all diodes are the same:
   - As a result, the capacitor filter **smooths the output voltage to a near-constant DC**.
 
 ### Operation (Ideal diode & capacitor)
+- **Ideal diode**: Zero voltage drop when forward-biased, infinite resistance when reverse-biased
+
+- **Ideal capacitor**:No leakage, infinite resistance when fully charged (i.e., holds charge forever unless discharged through a load)
+
+- At $t = 0$, the capacitor voltage $v_C = 0 V$ (**Uncharged**). As the AC input voltage $V_S$ starts increasing from 0 toward its positive peak, the diode becomes **forward-biased** when $V_S > V_C$ (which is initially 0). The diode conducts and **charges the capacitor**:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="CapIdeal1">
+</div>
+
+- The capacitor continues charging as long as $V_S$ is increasing and greater than $V_C$. Once the **input voltage reaches its peak**, say $V_{peak}$, the capacitor **charges up to this value**:
+$$
+V_C = V_S = V_{peak}
+$$
+
+- After the input voltage begins to drop below the peak, $V_S < V_C$, hence diode becomes **off** and **no current flows** anymore. Because the capacitor is **ideal**, it does not discharge (**no leakage**), so it holds its voltage at $V_{peak}$ indefinetly:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="CapIdeal2">
+</div>
+
+- Since the diode is **off** and in **reverse-biased**, the capacitor is isolated and maintain its voltage:
+$$
+V_O = V_C = V_S 
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="CapIdeal3">
+</div>
+
+- During the next cycles of the AC waveform, diode will only turn on again if $V_S$ rises above the stored $V_C$. But since $V_S$ **never exceeds the peak again** (or only does so momentarily), the diode remains mostly **off** due to **ideal capacitor characteristics**. Thus, output voltage remains at $V_S$ or $V_{peak}$:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="CapIdeal4">
+</div>
+
+!!! Question "Why so"
+
+    Now, when the ideal capacitor gets **fully charged**, the circuit is effectively an **open circuit**. Hence, there is no way for current to flow. 
+
+!!! info "Unless...."
+
+    Unless there's a load, in which case the capacitor might discharge slightly and get "topped up" when $V_S > V_C$
+
+- Since the $V_O$ is a DC voltage equal to the **peak of the input wave**, the circuit is known as **peak rectifier** or **peak detector**:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="CapIdeal5">
+</div>
+
+!!! Abstract "For your information"
+
+    Peak rectifier or peak detector is commonly used in **signal processing, power supply smoothening and precision rectifier circuits**.
+
+
+
+
+
