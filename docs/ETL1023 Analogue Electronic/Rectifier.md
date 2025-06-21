@@ -238,19 +238,32 @@ $$
 
 - Graph during the **positive half-cycle of input voltage**:
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT1.png?raw=true" alt="Bridge2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge2.png?raw=true" alt="Bridge2">
 </div>
 
 - Graph during the **negative half-cycle of input voltage**:
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT2.png?raw=true" alt="Bridge3">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge3.png?raw=true" alt="Bridge3">
 </div>
 
 - Graph of **full complete waveform**:
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="Bridge4">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge4.png?raw=true" alt="Bridge4">
 </div>
 
 !!! Warning "Ideal diode model"
 
     For **Ideal diode model**, instead of $V_S - 2V_D$ , it will be just $V_S$ , same value as the input voltage for both cycles.   
+
+
+
+
+
+
+
+
+
+
+
+
+
