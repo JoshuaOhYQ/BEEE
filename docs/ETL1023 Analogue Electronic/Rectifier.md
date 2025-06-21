@@ -323,7 +323,7 @@ Substituting \( V_O = V_S - 2V_D \) and assuming that all diodes are the same:
 ### Operation (Ideal diode & capacitor)
 - **Ideal diode**: Zero voltage drop when forward-biased, infinite resistance when reverse-biased
 
-- **Ideal capacitor**:No leakage, infinite resistance when fully charged (i.e., holds charge forever unless discharged through a load)
+- **Ideal capacitor**: No leakage, infinite resistance when fully charged (i.e., holds charge forever unless discharged through a load)
 
 - At $t = 0$, the capacitor voltage $v_C = 0 V$ (**Uncharged**). As the AC input voltage $V_S$ starts increasing from 0 toward its positive peak, the diode becomes **forward-biased** when $V_S > V_C$ (which is initially 0). The diode conducts and **charges the capacitor**:
 
