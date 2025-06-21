@@ -378,6 +378,24 @@ $$
     Peak rectifier or peak detector is commonly used in **signal processing, power supply smoothening and precision rectifier circuits**.
 
 
+### Operation (Ideal diode, but normal capacitor)
+- A more practical implementation includes **a load resistance R** connected across a normal capacitor C. 
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
