@@ -277,7 +277,6 @@ When $D_3$ is in reverse-biased, reverse voltage across $D_3$ is
 
 $$
 V_{D3} = V_O - (-V_{D2})
-V_{D3} = V_O + V_{D2}
 $$
 
 The waveform reaches its peak/maximum value when
