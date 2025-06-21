@@ -178,7 +178,7 @@ Graphically, this forms a **V-shaped curve**, where the output mirrors the input
 
 !!! Warning "Ideal diode model"
 
-    For **Ideal diode model**, instead of $V_S - V_D$ , it will be just $V_S$ , same value as the input voltage.  
+    For **Ideal diode model**, instead of $V_S - V_D$ , it will be just $V_S$ , same value as the input voltage for both cycles.  
 
 
 ### Center-Tapped Full-Wave Rectifier PIV
@@ -227,9 +227,30 @@ Substituting \( V_O = V_S - V_D \):
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6d5226ee13d06353193f7445549ec4b90667d957/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge1.png?raw=true" alt="Bridge1">
 </div>
 
+- Using an **ideal-diode model**, when the input cycle is positive, diodes $D_1$ and $D_2$ are forward-biased and conduct current. A voltage is developed across $R_L$ and same like the *positive half of the input cycle* since we *do not have to consider the voltage drop across the diode*. During this time, diodes $D_3$ and $D_4$ are reverse-biased. 
 
+- Using an **ideal-diode model**, when the input cycle is negative, diodes $D_3$ and $D_4$ are forward-biased and conduct current in the **same direction as positive half-cycle through** $R_L$. A voltage is developed across $R_L$ and same like the *positive half of the input cycle* (*because same current direction*) since we *do not have to consider the voltage drop across the diode*. During this time, diodes $D_1$ and $D_2$ are reverse-biased. As a result, a **full-wave rectified output voltage** appears across $R_L$
 
+- Using a **constant voltage drop diode model**, the *process of the rectification will be the same* as the ideal-diode model, but we have to consider the *constant voltage drop across the diodes*. Looking at the process illustration below, **2 diodes are always in series with the load resistor**, whether it is positive or negative half-cycles. So, if we take into account the diode drops, the output voltage is:
+$$
+V_O = V_S - 2V_D
+$$
 
+- Graph during the **positive half-cycle of input voltage**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT1.png?raw=true" alt="Bridge2">
+</div>
 
+- Graph during the **negative half-cycle of input voltage**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT2.png?raw=true" alt="Bridge3">
+</div>
 
+- Graph of **full complete waveform**:
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="Bridge4">
+</div>
 
+!!! Warning "Ideal diode model"
+
+    For **Ideal diode model**, instead of $V_S - 2V_D$ , it will be just $V_S$ , same value as the input voltage for both cycles.   
