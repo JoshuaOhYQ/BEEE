@@ -397,7 +397,7 @@ $$
 
 - The capacitor tracks the input voltage while it's rising. When the input voltage **reaches its peak**, the capacitor **charges fully**:
 $$
-V_C = V_S = V_peak 
+V_C = V_S = V_{peak} 
 $$
 
 - After the input voltage passes the peak and starts to fall, $v_s < V_C$ , so diode becomes **reverse-biased**. At this point, the capacitor begins to **discharge through resistor R**. The voltage across the capacitor drops exponentially: $V_{C}(t) = V_{\text{peak}} e^{-\frac{t}{RC}}$
