@@ -256,7 +256,7 @@ $$
     For **Ideal diode model**, instead of $V_S - 2V_D$ , it will be just $V_S$ , same value as the input voltage for both cycles.   
 
 
-
+### Bridge Full-Wave Rectifier PIV
 
 
 
