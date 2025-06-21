@@ -309,3 +309,15 @@ Substituting \( V_O = V_S - 2V_D \) and assuming that all diodes are the same:
 
 
 ## Peak Rectifier
+### Introduction
+- Rectified waveform *removes the segments of negative input waveform* and produces a **pulsating DC output**. 
+
+- This **pulsating DC output** is still **unsuitable** as a dc power supply, as the *voltage constantly varies between peak voltage and zero* due to its *pulsating nature*. 
+
+- This **pulsating nature** can be resolved with a **filter capacitor**:
+  - **Capacitor** is in parallel with the load to smooth the output voltage.
+  - The capacitor *charges during peaks* and *discharges during valleys*.
+  - This help *reduce the ripple voltage (remaining small fluctuations)* significantly.
+  - As a result, the capacitor filter **smooths the output voltage to a near-constant DC**.
+
+### Operation (Ideal diode & capacitor)
