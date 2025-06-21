@@ -389,7 +389,7 @@ $$
 
 - Output Voltage, $V_O = V_C$ which is the *voltage of the capacitor*. 
 
-- At $t = o$ , $V_C = 0$ , **capacitor is initially uncharged**. The diode becomes **forward-biased** as soon as $V_S > 0$ , conducts current and the **capacitor charges up** as long as $v_s > V_C$ :
+- At $t = 0$ , $V_C = 0$ , **capacitor is initially uncharged**. The diode becomes **forward-biased** as soon as $V_S > 0$ , conducts current and the **capacitor charges up** as long as $v_s > V_C$ :
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN1.png?raw=true" alt="CapN1">
