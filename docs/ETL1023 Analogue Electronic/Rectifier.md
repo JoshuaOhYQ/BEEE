@@ -327,18 +327,18 @@ This **pulsating nature** can be resolved with a **filter capacitor**:
 
 - **Ideal capacitor**: No leakage, infinite resistance when fully charged (i.e., holds charge forever unless discharged through a load)
 
-- At $t = 0$, the capacitor voltage $v_C = 0 V$ (**Uncharged**). As the AC input voltage $V_S$ starts increasing from 0 toward its positive peak, the diode becomes **forward-biased** when $V_S > V_C$ (which is initially 0). The diode conducts and **charges the capacitor**:
+- At $t = 0$, the capacitor voltage $v_C = 0 V$ (**Uncharged**). As the AC input voltage $v_s$ starts increasing from 0 toward its positive peak, the diode becomes **forward-biased** when $v_s > V_C$ (which is initially 0). The diode conducts and **charges the capacitor**:
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal1.png?raw=true" alt="CapIdeal1">
 </div>
 
-- The capacitor continues charging as long as $V_S$ is increasing and greater than $V_C$. Once the **input voltage reaches its peak**, say $V_{peak}$, the capacitor **charges up to this value**:
+- The capacitor continues charging as long as $v_s$ is increasing and greater than $V_C$. Once the **input voltage reaches its peak**, say $V_{peak}$, the capacitor **charges up to this value**:
 $$
 V_C = V_S = V_{peak}
 $$
 
-- After the input voltage begins to drop below the peak, $V_S < V_C$, hence diode becomes **off** and **no current flows** anymore. Because the capacitor is **ideal**, it does not discharge (**no leakage**), so it holds its voltage at $V_{peak}$ indefinetly:
+- After the input voltage begins to drop below the peak, $v_s < V_C$, hence diode becomes **off** and **no current flows** anymore. Because the capacitor is **ideal**, it does not discharge (**no leakage**), so it holds its voltage at $V_{peak}$ indefinetly:
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal2.png?raw=true" alt="CapIdeal2">
@@ -353,7 +353,7 @@ $$
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal3.png?raw=true" alt="CapIdeal3">
 </div>
 
-- During the next cycles of the AC waveform, diode will only turn on again if $V_S$ rises above the stored $V_C$. But since $V_S$ **never exceeds the peak again** (or only does so momentarily), the diode remains mostly **off** due to **ideal capacitor characteristics**. Thus, output voltage remains at $V_S$ or $V_{peak}$:
+- During the next cycles of the AC waveform, diode will only turn on again if $v_s$ rises above the stored $V_C$. But since $v_s$ **never exceeds the peak again** (or only does so momentarily), the diode remains mostly **off** due to **ideal capacitor characteristics**. Thus, output voltage remains at $V_S$ or $V_{peak}$:
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal4.png?raw=true" alt="CapIdeal4">
@@ -365,7 +365,7 @@ $$
 
 !!! info "Unless...."
 
-    Unless there's a load, in which case the capacitor might discharge slightly and get "topped up" when $V_S > V_C$
+    Unless there's a load, in which case the capacitor might discharge slightly and get "topped up" when $v_s > V_C$
 
 - Since the $V_O$ is a DC voltage equal to the **peak of the input wave**, the circuit is known as **peak rectifier** or **peak detector**:
 
