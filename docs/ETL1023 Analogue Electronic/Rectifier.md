@@ -387,7 +387,7 @@ $$
 
 - **Resistor R**: Represents the load across which output is taken. 
 
-
+- Output Voltage, $V_O = V(C)$ which is the *voltage of the capacitor*. 
 
 
 
