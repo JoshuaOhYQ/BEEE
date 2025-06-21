@@ -381,7 +381,13 @@ $$
 ### Operation (Ideal diode, but normal capacitor)
 - A more practical implementation includes **a load resistance R** connected across a normal capacitor C. 
 
-- 
+- **Ideal Diode**: No voltage drop when forward-biased and infinite resistance when reverse-biased.
+
+- **Capacitor**: Stores charges, but can now discharge through load resistor R.
+
+- **Resistor R**: Represents the load across which output is taken. 
+
+
 
 
 
