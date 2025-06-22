@@ -448,11 +448,41 @@ $$
     - **Larger C**: Slower discharge & less ripple
     - **Larger R**: smaller load current & less ripple
 
+### Derivation of filter circuit
+- In an RC filter circuit, $v_c$ **decays exponentiatlly** over time with time constant $τ = CR$ , where *C is the capacitance* and *R is the resistance*. Voltage for capacitor at any time t is given by:
+
+$$
+v_c = V_C \cdot e^{-\frac{t}{\tau}}
+$$
+
+where, $V_C$ is the initial peak voltage across the capacitor
+
+!!! note "Flashback"
+
+    When t = τ = RC, $v_c$ drops to ≈ **36.8%** of peak voltage $V_C$ :
+
+    $$
+    e^{-\frac{RC}{RC}} = e^{-1} \approx 0.368
+    $$
 
 
+    In basic terms, the time constant, τ determines **how quickly the capacitor discharges**. After **one time constant (1τ)**, the voltage of capacitor **reduces to about 36.8% of its initial value**.   
 
+- Time constant, τ is important in an RC filter circuit for **maintaining a stable and reliable DC output voltage**. In an RC circuit, the capacitor **charges and discharges** through the capacitor. A larger τ (achieved by **increasing C or R**) results in **slower voltage changes** across capacitor. If $CR >> T$ , where T is the period of the input waveform, it ensures that the capacitor **does not discharge significantly during T**, hence *minimizing ripple*:
 
+$$
+e^{-\frac{T}{\tau}} = e^{-\frac{T}{RC}} \\
+\text{If } RC \gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
+$$
 
+So, the larger the τ, the smaller the change in $V_C$ : 
 
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN6.png?raw=true" alt="CapN6">
+</div>
+
+!!! info "For your information"
+
+    While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** increases cost or size and **larger R** lowers output current capability.  
 
 
