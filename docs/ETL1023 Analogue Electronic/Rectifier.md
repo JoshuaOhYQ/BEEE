@@ -485,4 +485,4 @@ So, the larger the τ, the smaller the change in $V_C$ :
 
     While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** increases cost or size and **larger R** lowers output current capability.  
 
-
+- When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To minimize and keep $V_r$ small, 
