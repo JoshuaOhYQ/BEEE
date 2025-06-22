@@ -514,7 +514,7 @@ In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**
 Relationship between ripple voltage $V_r$ , time constant $\tau$ and input period $T$: 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev3">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2d01e0836611c6a8874acaf7f3589f00cde351a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev3.png?raw=true" alt="Dev3">
 </div>
 
 - During the **discharge phase** of an RC filter circuit, where **diode is cut-off and not conducting**, output voltage *decays exponentially*: 
