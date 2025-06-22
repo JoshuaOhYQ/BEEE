@@ -470,13 +470,12 @@ $$
 
 - Time constant, τ is important in an RC filter circuit for **maintaining a stable and reliable DC output voltage**. In an RC circuit, the capacitor **charges and discharges** through the capacitor. A larger τ (achieved by **increasing C or R**) results in **slower voltage changes** across capacitor. If $CR >> T$ , where T is the period of the input waveform, it ensures that the capacitor **does not discharge significantly during T**, hence *minimizing ripple*:
 
-  \begin{align*}
-  e^{-\frac{T}{\tau}} &= e^{-\frac{T}{RC}} \\
-  \text{If } RC &\gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
-  \end{align*}
+\begin{align*}
+e^{-\frac{T}{\tau}} &= e^{-\frac{T}{RC}} \\
+\text{If } RC &\gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
+\end{align*}
 
-
-  So, the larger the τ, the smaller the change in $V_C$ : 
+So, *the larger the τ, the smaller the change in* $V_C$ : 
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="Dev1">
@@ -484,7 +483,7 @@ $$
 
 !!! info "For your information"
 
-    While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** increases cost or size and **larger R** lowers output current capability.  
+    While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** *increases cost or size* and **larger R** *lowers output current capability*.  
 
 - When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To **minimize ripple** and keep $V_r$ **small**, **CR must be large** to ensure the capacitor **discharges very slowly**: 
 
