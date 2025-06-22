@@ -514,7 +514,7 @@ In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**
 Relationship between ripple voltage $V_r$ , time constant $\tau$ and input period $T$: 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev3">
 </div>
 
 - During the **discharge phase** of an RC filter circuit, where **diode is cut-off and not conducting**, output voltage *decays exponentially*: 
@@ -560,8 +560,35 @@ $$
     - C or R **increases** (larger time constant)
     - T **decreases**
 
+- As frequency $f$ is the reciprocal of cycle period $T$ , $f = \frac{1}{T}$ , we *substitute* this into the formula to find $V_r$ :
+$$
+V_r \approx V_S \cdot \frac{T}{CR} = \frac{V_S}{fCR}
+$$
 
+- With $V_r << V_S$ (**small ripple**), we can assume that **capacitor discharges with a constant current**:
+$$
+I_L = \frac{V_S}{R}
+$$
 
+- If we *subsitute* this constant current $I_L$ into the formula for $V_r$ : 
+$$
+V_r = \frac{I_LT}{C} = \frac{I_L}{fC}
+$$
 
+!!! Abstract "Interpretation"
 
+    Alternative equation to find ripple voltage:
+
+    $$
+    V_r = \frac{I_L}{fC}
+    $$
+
+    Looking at this equation, **ripple voltage** $V_r$ **decreases** if:
+
+    - frequency, $f$ or capacitance, $C$ **increases** 
+    - load current, $I_L$ **decreases**
+
+!!! Warning 
+
+    The constant-current assumption holds only if $V_r << V_S$ , if **larger ripple**, you need to use **exponential decay equations**. 
 
