@@ -478,7 +478,7 @@ $$
 So, the larger the τ, the smaller the change in $V_C$ : 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN6.png?raw=true" alt="CapN6">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="CapN6">
 </div>
 
 !!! info "For your information"
