@@ -531,7 +531,7 @@ $$
 V_S - V_r \approx V_S e^{\frac{-T}{CR}}
 $$
 
-where, $V_r$ is the *voltage drop during discharge*.
+where, $V_r$ is the *voltage drop during discharge* / *ripple voltage*.
 
 - As $CR >> T$ , $\frac{T}{CR}$ is **very small**, hence we can use the approximation of:
 $$
@@ -560,7 +560,7 @@ $$
     - C or R **increases** (larger time constant)
     - T **decreases**
 
-    
+
 
 
 
