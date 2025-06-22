@@ -511,10 +511,56 @@ In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**
     - Linear discharge (valid if $CR >> T$ , only **small ripple**)
     - **Symmetric ripple waveform** (sawtooth or triangular approximation)
 
+Relationship between ripple voltage $V_r$ , time constant $\tau$ and input period $T$: 
 
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev2">
+</div>
 
+- During the **discharge phase** of an RC filter circuit, where **diode is cut-off and not conducting**, output voltage *decays exponentially*: 
 
+$$
+v_o = V_S \cdot e^{-\frac{t}{CR}}
+$$
 
+where, $V_S$ is the *peak voltage*.
+
+- At the **end of discharging** (after time T), **output reaches its minimum**:
+
+$$
+V_S - V_r \approx V_S e^{\frac{-T}{CR}}
+$$
+
+where, $V_r$ is the *voltage drop during discharge*.
+
+- As $CR >> T$ , $\frac{T}{CR}$ is **very small**, hence we can use the approximation of:
+$$
+e^{\frac{-T}{CR}} \approx 1 - \frac{T}{CR}
+$$
+
+- *Substituting* into the discharge equation we get:
+$$
+V_S - V_r \approx V_S \left(1 - \frac{T}{CR} \right)
+$$
+
+$$
+V_r \approx V_S \cdot \frac{T}{CR}
+$$
+
+!!! Abstract "Interpretation"
+
+    Final equation to find ripple voltage:
+
+    $$
+    V_r \approx V_S \cdot \frac{T}{CR}
+    $$
+
+    Looking at this equation, **ripple voltage** $V_r$ **decreases** if:
+
+    - C or R **increases** (larger time constant)
+    - T **decreases**
+
+    
 
 
 
