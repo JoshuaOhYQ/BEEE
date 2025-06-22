@@ -449,13 +449,13 @@ $$
     - **Larger R**: smaller load current & less ripple
 
 ### Derivation of filter circuit
-- In an RC filter circuit, $v_c$ **decays exponentiatlly** over time with time constant $τ = CR$ , where *C is the capacitance* and *R is the resistance*. Voltage for capacitor at any time t is given by:
+In an RC filter circuit, $v_c$ **decays exponentiatlly** over time with time constant $τ = CR$ , where *C is the capacitance* and *R is the resistance*. Voltage for capacitor at any time t is given by:
 
-  $$
-  v_c = V_C \cdot e^{-\frac{t}{\tau}}
-  $$
+$$
+v_c = V_C \cdot e^{-\frac{t}{\tau}}
+$$
 
-  where, $V_C$ is the initial peak voltage across the capacitor.
+where, $V_C$ is the initial peak voltage across the capacitor.
 
 !!! note "Flashback"
 
@@ -465,10 +465,9 @@ $$
     e^{-\frac{RC}{RC}} = e^{-1} \approx 0.368
     $$
 
-
     In basic terms, the time constant, τ determines **how quickly the capacitor discharges**. After **one time constant (1τ)**, the voltage of capacitor **reduces to about 36.8% of its initial value**.   
 
-- Time constant, τ is important in an RC filter circuit for **maintaining a stable and reliable DC output voltage**. In an RC circuit, the capacitor **charges and discharges** through the capacitor. A larger τ (achieved by **increasing C or R**) results in **slower voltage changes** across capacitor. If $CR >> T$ , where T is the period of the input waveform, it ensures that the capacitor **does not discharge significantly during T**, hence *minimizing ripple*:
+Time constant, τ is important in an RC filter circuit for **maintaining a stable and reliable DC output voltage**. In an RC circuit, the capacitor **charges and discharges** through the capacitor. A larger τ (achieved by **increasing C or R**) results in **slower voltage changes** across capacitor. If $CR >> T$ , where T is the period of the input waveform, it ensures that the capacitor **does not discharge significantly during T**, hence *minimizing ripple*:
 
 \begin{align*}
 e^{-\frac{T}{\tau}} &= e^{-\frac{T}{RC}} \\
@@ -485,10 +484,37 @@ So, *the larger the τ, the smaller the change in* $V_C$ :
 
     While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** *increases cost or size* and **larger R** *lowers output current capability*.  
 
-- When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To **minimize ripple** and keep $V_r$ **small**, **CR must be large** to ensure the capacitor **discharges very slowly**: 
+When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To **minimize ripple** and keep $V_r$ **small**, **CR must be large** to ensure the capacitor **discharges very slowly**: 
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev2">
 </div>
+
+Approximation for calculating **DC output voltage** ($V_O$) in an RC filter circuit, accounting for *ripple voltage* $V_r$ :
+
+- The capacitor **discharges between input pulses**, causing the output to **drop** from $V_S$ to $V_S - V_r$ . 
+- The **average** of these extremes ($V_S$ and $V_S - V_r$) gives the DC output:
+$$ 
+V_O = \frac{V_S + (V_S - V_R)}{2} = V_S - \frac{1}{2} V_R
+$$
+Where:  
+\( V_S \): Peak voltage (maximum value of the unfiltered input, e.g., rectified AC)  
+\( V_R \): Peak-to-peak ripple voltage (fluctuation due to capacitor discharge)  
+\( V_O \): Average DC output voltage after filtering
+
+In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**.
+
+!!! Warning 
+
+    **This formula works by assuming that:**
+    - Linear discharge (valid if $CR >> T$ , only **small ripple**)
+    - **Symmetric ripple waveform** (sawtooth or triangular approximation)
+
+
+
+
+
+
+
 
 
