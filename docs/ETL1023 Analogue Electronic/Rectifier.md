@@ -495,11 +495,11 @@ Approximation for calculating **DC output voltage** ($V_O$) in an RC filter circ
 - The capacitor **discharges between input pulses**, causing the output to **drop** from $V_S$ to $V_S - V_r$ . 
 - The **average** of these extremes ($V_S$ and $V_S - V_r$) gives the DC output:
 $$ 
-V_O = \frac{V_S + (V_S - V_R)}{2} = V_S - \frac{1}{2} V_R
+V_O = \frac{V_S + (V_S - V_r)}{2} = V_S - \frac{1}{2} V_r
 $$
 Where:  
 \( V_S \): Peak voltage (maximum value of the unfiltered input, e.g., rectified AC)  
-\( V_R \): Peak-to-peak ripple voltage (fluctuation due to capacitor discharge)  
+\( V_r \): Peak-to-peak ripple voltage (fluctuation due to capacitor discharge)  
 \( V_O \): Average DC output voltage after filtering
 
 In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**.
@@ -507,6 +507,7 @@ In the formula above, $V_O$ is basically the **midpoint of the ripple extremes**
 !!! Warning 
 
     **This formula works by assuming that:**
+
     - Linear discharge (valid if $CR >> T$ , only **small ripple**)
     - **Symmetric ripple waveform** (sawtooth or triangular approximation)
 
