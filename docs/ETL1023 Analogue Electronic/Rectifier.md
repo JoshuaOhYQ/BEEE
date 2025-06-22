@@ -570,7 +570,7 @@ $$
 I_L = \frac{V_S}{R}
 $$
 
-- If we *subsitute* this constant current $I_L$ into the formula for $V_r$ : 
+- If we *subsitute* this **constant current** $I_L$ into the formula for $V_r$ : 
 $$
 V_r = \frac{I_LT}{C} = \frac{I_L}{fC}
 $$
