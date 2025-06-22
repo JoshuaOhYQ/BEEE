@@ -448,7 +448,7 @@ $$
     - **Larger C**: Slower discharge & less ripple
     - **Larger R**: smaller load current & less ripple
 
-### Derivation of filter circuit
+### Derivation of filter circuit (Half-wave)
 In an RC filter circuit, $v_c$ **decays exponentiatlly** over time with time constant $τ = CR$ , where *C is the capacitance* and *R is the resistance*. Voltage for capacitor at any time t is given by:
 
 $$
@@ -592,3 +592,30 @@ $$
 
     The constant-current assumption holds only if $V_r << V_S$ , if **larger ripple**, you need to use **exponential decay equations**. 
 
+### Derivation of filter circuit (Full-wave)
+The key differences between half-wave and full-wave peak rectifiers with capacitor filtering is that:
+
+- **Half-Wave**: Uses only **one half** of the AC cycle, resulting in a **ripple frequency** ($f$) **equal** to the **input AC frequency** (e.g., *50 Hz*)
+
+- **Full-Wave**: Uses **both halves** of the AC cycle, **doubling the ripple frequency** (e.g., *100 Hz for 50 Hz input*)
+
+!!! note 
+
+    - **Half-Wave Output**: Larger gaps between recharge pulses, deeper ripple.
+    - **Full-Wave Output**: More frequent recharging, smaller ripple amplitude.
+
+With **full-wave peak rectifier**, decaying **period** is approximately **reduced by half**, so **discharge time** is $\frac{T}{2}$:
+$$
+V_r = \frac{V_ST}{2CR} = \frac{V_S}{2fCR} 
+$$
+where, $f$ is the **original AC frequency** from the **source**. But the **effective ripple frequency** is $2f$ . 
+
+The discharge period ($T$) is **halved**, since the capacitor is **recharged twice** as often:
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2d01e0836611c6a8874acaf7f3589f00cde351a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev3.png?raw=true" alt="Dev4">
+</div>
+
+!!! info "Extra Info"
+
+    Full-wave rectifiers require **more diodes** but offer **better performance**, as full-wave rectifier inherently produce **less ripple voltage** for the same $C$ , $R$ and input frequency because the **capacitor discharges for a shorter time**. 
