@@ -613,7 +613,7 @@ where, $f$ is the **original AC frequency** from the **source**. But the **effec
 The discharge period ($T$) is **halved**, since the capacitor is **recharged twice** as often:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2d01e0836611c6a8874acaf7f3589f00cde351a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev3.png?raw=true" alt="Dev4">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/385fa90f6477a5f1490916610eec558e2fd0a6fb/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev4.png?raw=true" alt="Dev4">
 </div>
 
 !!! info "Extra Info"
