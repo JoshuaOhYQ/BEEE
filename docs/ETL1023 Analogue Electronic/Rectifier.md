@@ -451,11 +451,11 @@ $$
 ### Derivation of filter circuit
 - In an RC filter circuit, $v_c$ **decays exponentiatlly** over time with time constant $τ = CR$ , where *C is the capacitance* and *R is the resistance*. Voltage for capacitor at any time t is given by:
 
-$$
-v_c = V_C \cdot e^{-\frac{t}{\tau}}
-$$
+  $$
+  v_c = V_C \cdot e^{-\frac{t}{\tau}}
+  $$
 
-where, $V_C$ is the initial peak voltage across the capacitor
+  where, $V_C$ is the initial peak voltage across the capacitor.
 
 !!! note "Flashback"
 
@@ -470,19 +470,26 @@ where, $V_C$ is the initial peak voltage across the capacitor
 
 - Time constant, τ is important in an RC filter circuit for **maintaining a stable and reliable DC output voltage**. In an RC circuit, the capacitor **charges and discharges** through the capacitor. A larger τ (achieved by **increasing C or R**) results in **slower voltage changes** across capacitor. If $CR >> T$ , where T is the period of the input waveform, it ensures that the capacitor **does not discharge significantly during T**, hence *minimizing ripple*:
 
-$$
-e^{-\frac{T}{\tau}} = e^{-\frac{T}{RC}} \\
-\text{If } RC \gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
-$$
+  \begin{align*}
+  e^{-\frac{T}{\tau}} &= e^{-\frac{T}{RC}} \\
+  \text{If } RC &\gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
+  \end{align*}
 
-So, the larger the τ, the smaller the change in $V_C$ : 
+
+  So, the larger the τ, the smaller the change in $V_C$ : 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="CapN6">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="Dev1">
 </div>
 
 !!! info "For your information"
 
     While larger R or C improves filtering, it may also **slow the circuit's response to load changes**. Besides, **larger C** increases cost or size and **larger R** lowers output current capability.  
 
-- When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To minimize and keep $V_r$ small, 
+- When a capacitor discharges through a resistor in an RC filter circuit, the *output voltage decays slightly between input pulses*. This decay causes a **small fluctuation** called the **ripple voltage**, $V_r$. To **minimize ripple** and keep $V_r$ **small**, **CR must be large** to ensure the capacitor **discharges very slowly**: 
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="Dev1">
+</div>
+
+
