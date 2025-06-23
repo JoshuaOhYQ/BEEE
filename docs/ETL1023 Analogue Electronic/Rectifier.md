@@ -68,7 +68,7 @@ If we use a *constant voltage drop model* for the **diode**, we have to take int
 - Refers to the *maximum reverse voltage* across the diode during the negative half-cycle.
 - It is used to determine the *maximum reverse voltage (PIV rating)* the diode can withstand without breaking down.
 - During the negative half-cycle, the diode is reverse-biased. The **diode takes the entire voltage from the source when it is reverse-biased** according to Kirchoff's Voltage Law, as voltage across resistor is zero. 
-- The PIV rating of the diode *must be at least the peak input voltage*, $I_{peak}$.
+- The PIV rating of the diode *must be at least the peak input voltage*, $V_{peak}$.
 - If the reverse voltage exceeds diode's PIV rating, breakdown of diode can occur, potentially damaging or destroying the diode. 
 
 !!! Warning "Recommendation"
