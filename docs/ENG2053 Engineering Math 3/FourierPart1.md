@@ -207,7 +207,7 @@ sin (n\pi) = 0
 $$
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="sin=0">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/sin%20%3D%200.png?raw=true" alt="sin=0">
 </div>
 
 $$
@@ -215,7 +215,7 @@ cos (n\pi) = (-1)^n
 $$
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="cos=-1">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/cos%20%3D%20-1.png?raw=true" alt="cos=-1">
 </div>
 
 $$
@@ -228,7 +228,7 @@ $$
 $$
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="sin/2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/sin.2.png?raw=true" alt="sin/2">
 </div>
 
 $$
@@ -241,7 +241,7 @@ $$
 $$
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="cos/2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/cos.2.png?raw=true" alt="cos/2">
 </div>
 
 If we integrate over whole periods, areas cancel out:
