@@ -26,7 +26,7 @@
 - Periodic function $f(X)$ with period $L$ show the same pattern every $L$ units along the *x-axis*, hence $f(x+L) = f(x)$ for every value of $x$ . 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3c26dc604f5f2f2f0e529b2a353afb4504c6f1d4/docs/ENG2053%20Engineering%20Math%203/Even.png?raw=true" alt="Even&Odd">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c6cb3e127e004aead24f2c929391b604a0c80d85/docs/ENG2053%20Engineering%20Math%203/Four1.png?raw=true" alt="Four1">
 </div>
 
 - If we know what the function looks like over **one complete period**, we can sketch a graph of the function over a **wider interval of x** (many periods)
