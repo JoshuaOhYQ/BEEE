@@ -200,10 +200,10 @@ $$
 
 ## Useful Trigonometry results
 
-When calculating the **Fourier coefficients** $a_n$ and $b_n$ , the following trigonometry results deduced from the graph of $sin x$ and $cos x$ are useful:
+When calculating the **Fourier coefficients** $a_n$ and $b_n$ , the following trigonometry results deduced from the graph of $\sin x$ and $\cos x$ are useful:
 
 $$
-sin (n\pi) = 0
+\sin (n\pi) = 0
 $$
 
 <div align="center">
@@ -211,7 +211,7 @@ $$
 </div>
 
 $$
-cos (n\pi) = (-1)^n
+\cos (n\pi) = (-1)^n
 $$
 
 <div align="center">
