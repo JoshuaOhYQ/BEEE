@@ -99,13 +99,13 @@ $$
 
 **Step 2 -**
 $$
-a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \cos(nx) \, dx
+a_n = \frac{1}{\pi} \int_{2\pi} f(x) \cos(nx) \, dx
 $$
 
 
 **Step 3 -**
 $$
-a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \sin(nx) \, dx
+b_n = \frac{1}{\pi} \int_{2\pi} f(x) \sin(nx) \, dx
 $$
 
 !!! abstract "Note that"
@@ -118,11 +118,31 @@ If $f(x)$ is discontinuous at $x$ , the series **converges to a value half-way b
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="Four3">
 </div>
 
+## Alternative representation 1
+
+For waveform $f(x)$ with period $L = \frac{2\pi}{k}$ :
+
+$$
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(nkx) + b_n \sin(nkx) \right]
+$$
+
+To find the **Fourier coeffiecients** where integrations are over a **single interval** in $x$ of $L$ :  
+
+**Step 1 -**
+$$
+a_0 = \frac{2}{L} \int_{L} f(x) \, dx
+$$
+
+**Step 2 -**
+$$
+a_n = \frac{2}{L} \int_{L} f(x) \cos(nkx) \, dx
+$$
 
 
-
-
-
+**Step 3 -**
+$$
+b_n = \frac{2}{L} \int_{L} f(x) \sin(nkx) \, dx
+$$
 
 
 
