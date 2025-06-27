@@ -61,3 +61,38 @@ To build a non-smooth shape (square wave) with sharp edges and sudden jumps usin
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/299a21871a72a521410910663bcc37dad0bdaeda/docs/ENG2053%20Engineering%20Math%203/Four2.png?raw=true" alt="Four2">
 </div>
+
+## General representation 
+
+The **Fourier Series** for function $f(x)$ with period $L = 2\pi$ , fundamental frequency $k = \frac{2\pi}{L} = 1$ and involve terms:
+
+$$
+a_1 \cos x, \quad b_1 \sin x
+$$
+
+$$
+a_2 \cos x, \quad b_2 \sin x
+$$
+
+$$
+a_3 \cos x, \quad b_3 \sin x
+$$
+
+We also include a **constant term** $\frac{a_0}{2}$ to represent a functions entirely above the *x-axis* and with **sufficient number of harmonics**, approximate series can exactly represent a give function $f(X)$ :
+
+$$
+f(x) = \frac{a_0}{2} + a_1 \cos x + a_2 \cos x + a_3 \cos x + ... + b_1 \sin x + b_2 \sin x + b_3 \sin x + ...
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
