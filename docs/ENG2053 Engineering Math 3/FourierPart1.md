@@ -110,7 +110,7 @@ $$
 
 !!! abstract "Note that"
 
-    If we specift a particular value of $x$ in **Fourier Series**, it will give you a series of constants equal to $f(x)$. 
+    If we specify a particular value of $x$ in **Fourier Series**, it will give you a series of constants equal to $f(x)$. 
 
 If $f(x)$ is discontinuous at $x$ , the series **converges to a value half-way between the two possible function values**:
 
