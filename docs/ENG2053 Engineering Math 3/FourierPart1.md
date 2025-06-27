@@ -55,5 +55,5 @@ To build a non-smooth shape (square wave) with sharp edges and sudden jumps usin
 (iii) More harmonics you add, **the closer the sum looks like a square wave**.
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c6cb3e127e004aead24f2c929391b604a0c80d85/docs/ENG2053%20Engineering%20Math%203/Four1.png?raw=true" alt="Four2">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/299a21871a72a521410910663bcc37dad0bdaeda/docs/ENG2053%20Engineering%20Math%203/Four2.png?raw=true" alt="Four2">
 </div>
