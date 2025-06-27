@@ -108,12 +108,15 @@ $$
 a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \sin(nx) \, dx
 $$
 
+!!! abstract "Note that"
 
+  If we specift a particular value of $x$ in **Fourier Series**, it will give you a series of constants equal to $f(x)$. 
 
+If $f(x)$ is discontinuous at $x$ , the series **converges to a value half-way between the two possible function values**:
 
-
-
-
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/299a21871a72a521410910663bcc37dad0bdaeda/docs/ENG2053%20Engineering%20Math%203/Four2.png?raw=true" alt="Four3">
+</div>
 
 
 
