@@ -115,7 +115,7 @@ $$
 If $f(x)$ is discontinuous at $x$ , the series **converges to a value half-way between the two possible function values**:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/299a21871a72a521410910663bcc37dad0bdaeda/docs/ENG2053%20Engineering%20Math%203/Four2.png?raw=true" alt="Four3">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="Four3">
 </div>
 
 
