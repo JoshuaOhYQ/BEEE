@@ -44,9 +44,13 @@
 - A much better approximation can be built by adding an appropriate combination of harmonics to the fundamental pattern:
     
   $$
-  C_2 \sin(2kx + \alpha_2) = a_2 \cos(2kx) + b_2 \sin(2kx) \quad \text{(2nd harmonic)} \\
+  C_2 \sin(2kx + \alpha_2) = a_2 \cos(2kx) + b_2 \sin(2kx) \quad \text{(2nd harmonic)}
+  $$
+
+  $$
   C_3 \sin(3kx + \alpha_3) = a_3 \cos(3kx) + b_3 \sin(3kx) \quad \text{(3rd harmonic)}
   $$
+
 
 To build a non-smooth shape (square wave) with sharp edges and sudden jumps using **Fourier Series**, we can **add sine waves together**:
 
