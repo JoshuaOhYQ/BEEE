@@ -53,7 +53,6 @@
 
 
 To build a non-smooth shape (square wave) with sharp edges and sudden jumps using **Fourier Series**, we can **add sine waves together**:
-
 1) Start with the **fundamental sine wave** (**lowest frequency**)
 2) Then add **harmonics** (**3x, 5x, 7x the frequency** etc)
 3) More harmonics you add, **the closer the sum looks like a square wave**.
