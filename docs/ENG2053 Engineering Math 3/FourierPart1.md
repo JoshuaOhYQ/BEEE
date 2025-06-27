@@ -32,6 +32,7 @@
 - If we know what the function looks like over **one complete period**, we can sketch a graph of the function over a **wider interval of x** (many periods)
 
 - Property of **repetition** defines the fundamental spatial frequency,  
+
   $k = \frac{2\pi}{L}$, that is used to give the first approximation to the periodic pattern $f(x)$:
 
   $$
