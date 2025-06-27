@@ -254,5 +254,5 @@ $$
 $$
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="0areas">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6f16cdefb438e0f2b17c42f1dfbdb689ebc229b4/docs/ENG2053%20Engineering%20Math%203/0areas.png?raw=true" alt="0areas">
 </div>
