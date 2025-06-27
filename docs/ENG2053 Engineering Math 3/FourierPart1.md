@@ -145,7 +145,31 @@ b_n = \frac{2}{L} \int_{L} f(x) \sin(nkx) \, dx
 $$
 
 
+## Alternative representation 2
 
+For waveform $f(x)$ with period $2L = \frac{2\pi}{k}$ , $k = \frac{\pi}{L}$ and $nkx = \frac{n\pi x}{L}$ :
+
+$$
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(\frac{n\pi x}{L}) + b_n \sin(\frac{n\pi x}{L}) \right]
+$$
+
+To find the **Fourier coeffiecients** where integrations are over a **single interval** in $x$ of $2L$ :  
+
+**Step 1 -**
+$$
+a_0 = \frac{1}{L} \int_{2L} f(x) \, dx
+$$
+
+**Step 2 -**
+$$
+a_n = \frac{1}{L} \int_{2L} f(x) \cos(\frac{n\pi x}{L}) \, dx
+$$
+
+
+**Step 3 -**
+$$
+b_n = \frac{1}{L} \int_{2L} f(x) \sin(\frac{n\pi x}{L}) \, dx
+$$
 
 
 
