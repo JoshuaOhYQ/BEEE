@@ -29,7 +29,7 @@
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c6cb3e127e004aead24f2c929391b604a0c80d85/docs/ENG2053%20Engineering%20Math%203/Four1.png?raw=true" alt="Four1">
 </div>
 
-- If we know what the function looks like over **one complete period**, we can sketch a graph of the function over a **wider interval of x** (many periods)
+- If we know what the function looks like over **one complete period**, we can sketch a graph of the function over a **wider interval of x** (many periods).
 
 - Property of **repetition** defines the fundamental spatial frequency,  
 
@@ -54,9 +54,9 @@
 
 To build a non-smooth shape (square wave) with sharp edges and sudden jumps using **Fourier Series**, we can **add sine waves together**:
 
-(i) Start with the **fundamental sine wave** (**lowest frequency**)
-(ii) Then add **harmonics** (**3x, 5x, 7x the frequency** etc)
-(iii) More harmonics you add, **the closer the sum looks like a square wave**.
+1) Start with the **fundamental sine wave** (**lowest frequency**)
+2) Then add **harmonics** (**3x, 5x, 7x the frequency** etc)
+3) More harmonics you add, **the closer the sum looks like a square wave**.
 
 <div align="center">
   <img src="https://github.com/JoshuaOhYQ/BEEE/blob/299a21871a72a521410910663bcc37dad0bdaeda/docs/ENG2053%20Engineering%20Math%203/Four2.png?raw=true" alt="Four2">
