@@ -44,8 +44,9 @@
 - A much better approximation can be built by adding an appropriate combination of harmonics to the fundamental pattern:
     
   $$
-  C_2 \sin(2kx + \alpha_2) = a_2 \cos(2kx) + b_2 \sin(2kx) \quad \text{(the 2nd harmonic)} \\
-  C_3 \sin(3kx + \alpha_3) = a_3 \cos(3kx) + b_3 \sin(3kx) \quad \text{(the 3rd harmonic)}
+  C_2 \sin(2kx + \alpha_2) = a_2 \cos(2kx) + b_2 \sin(2kx) \quad \text{(2nd harmonic)} \\
+  C_3 \sin(3kx + \alpha_3) = a_3 \cos(3kx) + b_3 \sin(3kx) \quad \text{(3rd harmonic)}
   $$
+
 
 
