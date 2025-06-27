@@ -198,5 +198,61 @@ $$
 b_n = \frac{2}{T} \int_{T} f(t) \sin(n\omega t) \, dt
 $$
 
+## Useful Trigonometry results
 
+When calculating the **Fourier coefficients** $a_n$ and $b_n$ , the following trigonometry results deduced from the graph of $sin x$ and $cos x$ are useful:
 
+$$
+sin (n\pi) = 0
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="sin=0">
+</div>
+
+$$
+cos (n\pi) = (-1)^n
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="cos=-1">
+</div>
+
+$$
+\sin\left(\frac{n\pi}{2}\right) =
+\begin{cases}
+0, & \text{if } n \text{ is even} \\
+1, & \text{if } n = 1, 5, 9, \ldots \\
+-1, & \text{if } n = 3, 7, 11, \ldots
+\end{cases}
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="sin/2">
+</div>
+
+$$
+\cos\left(\frac{n\pi}{2}\right) =
+\begin{cases}
+0, & \text{if } n \text{ is odd} \\
+1, & \text{if } n = 0, 4, 8, \ldots \\
+-1, & \text{if } n = 2, 6, 10, \ldots
+\end{cases}
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="cos/2">
+</div>
+
+If we integrate over whole periods, areas cancel out:
+$$
+\int_{2\pi} \sin(nx) \, dx = 0
+$$
+
+$$
+\int_{2\pi} \cos(nx) \, dx = 0
+$$
+
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/03e34f84a025c3b9a00f7c304ccf450870d12be7/docs/ENG2053%20Engineering%20Math%203/Four3.png?raw=true" alt="0areas">
+</div>
