@@ -84,8 +84,29 @@ $$
 f(x) = \frac{a_0}{2} + a_1 \cos x + a_2 \cos x + a_3 \cos x + ... + b_1 \sin x + b_2 \sin x + b_3 \sin x + ...
 $$
 
+Basically, the **Fourier Series** of function $f(x)$ with **period** $2\pi$ , where **n = 1, 2, 3, ...** is:
+
+$$
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(nx) + b_n \sin(nx) \right]
+$$
+
+To find the **Fourier coefficients** ($a_0$ , $a_n$ , $b_n$) for function $f(x)$ , where integrations are over a **single interval** in $x$ of $L = 2\pi$ : 
+
+**Step 1 -**
+$$
+a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \, dx
+$$
+
+**Step 2 -**
+$$
+a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \cos(nx) \, dx
+$$
 
 
+**Step 3 -**
+$$
+a_0 = \frac{1}{\pi} \int_{2\pi} f(x) \sin(nx) \, dx
+$$
 
 
 
