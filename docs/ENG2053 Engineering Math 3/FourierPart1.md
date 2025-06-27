@@ -172,7 +172,31 @@ b_n = \frac{1}{L} \int_{2L} f(x) \sin(\frac{n\pi x}{L}) \, dx
 $$
 
 
+## Alternative representation 3
 
+For waveform $f(t)$ with period $T = \frac{2\pi}{\omega}$ :
+
+$$
+f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(n\omega t) + b_n \sin(n\omega t) \right]
+$$
+
+To find the **Fourier coeffiecients** where integrations are over a **single interval** in $t$ of $T$ :  
+
+**Step 1 -**
+$$
+a_0 = \frac{2}{T} \int_{T} f(t) \, dt
+$$
+
+**Step 2 -**
+$$
+a_n = \frac{2}{T} \int_{T} f(t) \cos(n\omega t) \, dt
+$$
+
+
+**Step 3 -**
+$$
+b_n = \frac{2}{T} \int_{T} f(t) \sin(n\omega t) \, dt
+$$
 
 
 
