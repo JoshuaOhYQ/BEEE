@@ -51,7 +51,7 @@ $$
 $y = f(t)$ is **odd** if $f(-t) = -f(t)$ for all values of $t$ . Graph is always symmetrical about the **origin**:
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2278648141d5a50c01aa59928e2e8842bbc482ac/docs/ENG2053%20Engineering%20Math%203/evengraph.png?raw=true" alt="oddgraph">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/13c3142ebade6c0c24eba66495657bfac260e323/docs/ENG2053%20Engineering%20Math%203/oddgraph.png?raw=true" alt="oddgraph">
 </div>
 
 For **odd** function $f(t)$ with range $-L$ to $L$ (**period** $= 2L$ ), this will produce value **0**:
