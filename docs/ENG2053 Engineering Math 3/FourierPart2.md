@@ -8,7 +8,7 @@ With the knowledge of **even and odd functions**, work required to find Fourier 
 $y = f(t)$ is **even** if $f(-t) = f(t)$ for all values of $t$ . Graph is always symmetrical about the **y-axis** (miror image):
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/sin%20%3D%200.png?raw=true" alt="evengraph">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2278648141d5a50c01aa59928e2e8842bbc482ac/docs/ENG2053%20Engineering%20Math%203/evengraph.png?raw=true" alt="evengraph">
 </div>
 
 For **even** function $f(t)$ with range $-L$ to $L$ (**period** $= 2L$ ), this will produce value **0**:
@@ -18,7 +18,7 @@ b_n = \frac{1}{L} \int_{L}{-L} f(t) \sin(\frac{n\pi t}{L}) \, dt = 0
 $$
  
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/63d79cd0274818309f38e7b63e6df945931a6b2e/docs/ENG2053%20Engineering%20Math%203/sin%20%3D%200.png?raw=true" alt="0area1">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2278648141d5a50c01aa59928e2e8842bbc482ac/docs/ENG2053%20Engineering%20Math%203/0area1.png?raw=true" alt="0area1">
 </div>
 
 !!! note "Flashback"
