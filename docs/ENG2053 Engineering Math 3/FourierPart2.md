@@ -14,7 +14,7 @@ $y = f(t)$ is **even** if $f(-t) = f(t)$ for all values of $t$ . Graph is always
 For **even** function $f(t)$ with range $-L$ to $L$ (**period** $= 2L$ ), this will produce value **0**:
 
 $$
-b_n = \frac{1}{L} \int_{L}^{-L} f(t) \sin(\frac{n\pi t}{L}) \, dt = 0
+b_n = \frac{1}{L} \int_{-L}^{L} f(t) \sin(\frac{n\pi t}{L}) \, dt = 0
 $$
  
 <div align="center">
@@ -30,11 +30,11 @@ $$
 Since for an **even function**, **coefficient** $b_n$ has zero value ( $b_n = 0$ ), we only have to calculate $a_0$ and $a_n$ for **Fourier Series expansion**:
 
 $$
-a_0 = \frac{1}{L} \int_{L}^{-L} f(t) \, dt
+a_0 = \frac{1}{L} \int_{-L}^{L} f(t) \, dt
 $$
 
 $$
-a_n = \frac{1}{L} \int_{L}^{-L} f(t) \cos\left( \frac{n\pi t}{L} \right) \, dt
+a_n = \frac{1}{L} \int_{-L}^{L} f(t) \cos\left( \frac{n\pi t}{L} \right) \, dt
 $$
 
 
