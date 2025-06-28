@@ -41,6 +41,6 @@ $$
 **Final Fourier expansion** for an **even** function has **cosine** terms only: 
 
 $$
-f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(\frac{n\pi x}{L}) \right]
+f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(\frac{n\pi t}{L}) \right]
 $$
 
