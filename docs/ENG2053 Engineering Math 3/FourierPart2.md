@@ -34,7 +34,7 @@ a_0 = \frac{1}{L} \int_{L}^{-L} f(t) \, dt
 $$
 
 $$
-a_n = \frac{1}{L} \int_{-L}^{L} f(t) \cos\left( \frac{n\pi t}{L} \right) \, dt
+a_n = \frac{1}{L} \int_{L}^{-L} f(t) \cos\left( \frac{n\pi t}{L} \right) \, dt
 $$
 
 
