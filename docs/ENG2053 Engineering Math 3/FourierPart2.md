@@ -107,3 +107,32 @@ $$
 where $n = 1, 2, 3, ...$
 
 
+### Odd Function (Half Range Sine Series)
+**Odd** function can be expanded using **half its range**:
+
+- $0$ to $L$ 
+- $-L$ to $0$ 
+- $L$ to $2L$
+
+**Range of integration is** $L$ for half range, instead of the full period of $2L$ :
+
+
+$$
+a_0 = 0
+$$
+
+
+$$
+a_n = 0
+$$
+
+$$
+b_n = \frac{2}{L} \int_{0}^{L} f(t) \sin\left( \frac{n\pi t}{L} \right) \, dt
+$$
+
+**Fourier Series** of **half range even function**: 
+$$
+f(t) = \sum_{n=1}^{\infty} \left[ b_n \sin(\frac{n\pi t}{L}) \right]
+$$
+
+where $n = 1, 2, 3, ...$
