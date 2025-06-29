@@ -82,7 +82,7 @@ If a function is defined over half the range ( $0$ to $L$ ), instead of full ran
 + $-L$ to $0$ 
 + $L$ to $2L$
 
-**Range of integration is** $L$ for half range:
+**Range of integration is** $L$ for half range, instead of the full period of $2L$ :
 
 
 $$
