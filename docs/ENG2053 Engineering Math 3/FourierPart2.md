@@ -103,6 +103,6 @@ $$
 f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(\frac{n\pi t}{L}) \right]
 $$
 
-for $n = 1, 2, 3, ...$
+where $n = 1, 2, 3, ...$
 
 
