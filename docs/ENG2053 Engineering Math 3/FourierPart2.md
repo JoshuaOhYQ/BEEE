@@ -78,9 +78,9 @@ If a function is defined over half the range ( $0$ to $L$ ), instead of full ran
 
 ### Even Function (Half Range Cosine Series)
 **Even** function can be expanded using **half its range**:
-- $0$ to $L$ 
-- $-L$ to $0$ 
-- $L$ to $2L$
++ $0$ to $L$ 
++ $-L$ to $0$ 
++ $L$ to $2L$
 
 **Range of integration is** $L$ for half range:
 
