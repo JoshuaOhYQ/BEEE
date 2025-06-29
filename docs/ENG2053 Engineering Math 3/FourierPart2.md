@@ -73,5 +73,6 @@ $$
 f(t) = \sum_{n=1}^{\infty} \left[ b_n \sin(\frac{n\pi t}{L}) \right]
 $$
 
-
+## Half-Range Fourier Series
+If a function is defined over half the range ( $0$ to $L$ ), instead of full range ( $-L$ to $L$ ), it may be expanded in a series of **sine terms only** or **cosine terms only** known as **half range Fourier Series**. This **half range definition** can be used to analyze **Fourier Series** of **even** or **odd** function. 
 
