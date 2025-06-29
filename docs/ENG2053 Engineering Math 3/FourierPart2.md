@@ -87,7 +87,7 @@ If a function is defined over half the range ( $0$ to $L$ ), instead of full ran
 
 
 $$
-a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt = 0
+a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt 
 $$
 
 
