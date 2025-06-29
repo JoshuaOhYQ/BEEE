@@ -76,3 +76,33 @@ $$
 ## Half-Range Fourier Series
 If a function is defined over half the range ( $0$ to $L$ ), instead of full range ( $-L$ to $L$ ), it may be expanded in a series of **sine terms only** or **cosine terms only** known as **half range Fourier Series**. This **half range definition** can be used to analyze **Fourier Series** of **even** or **odd** function. 
 
+### Even Function (Half Range Cosine Series)
+**Even** function can be expanded using **half its range**:
+- $0$ to $L$ 
+- $-L$ to $0$ 
+- $L$ to $2L$
+
+**Range of integration is** $L$ for half range:
+
+
+$$
+a_0 = \frac{2}{L} \int_{0}^{L} f(t) \, dt = 0
+$$
+
+
+$$
+a_n = \frac{2}{L} \int_{0}^{L} f(t) \cos(\frac{n\pi t}{L}) \, dt 
+$$
+
+$$
+b_n = 0
+$$
+
+**Fourier Series** of **half range even function**: 
+$$
+f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos(\frac{n\pi t}{L}) \right]
+$$
+
+for $n = 1, 2, 3, ...$
+
+
