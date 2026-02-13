@@ -3,5 +3,5 @@
 ## Basic Logic Gates 
 
 <div align="center">
-  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3c26dc604f5f2f2f0e529b2a353afb4504c6f1d4/docs/ENG2053%20Engineering%20Math%203/Even.png?raw=true" alt="Even&Odd">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c010fd3b0dfd8eb599e84ba85f3a94e1f4173385/docs/ETC3143%20Advanced%20Digital%20Design/Fundamentals/LogicGates.png?raw=true" alt="LogicGates">
 </div>
