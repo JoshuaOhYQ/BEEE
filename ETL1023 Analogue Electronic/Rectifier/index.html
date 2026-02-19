@@ -1,0 +1,1990 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Joshua OhYQ">
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/ETL1023%20Analogue%20Electronic/Rectifier/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Chapter 3: Rectifier - BEEE notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2010h5.5L14%204.5zM5%203h10l6%206v10a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V5c0-1.11.89-2%202-2m0%202v14h14v-7h-7V5z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%205h6v6H3zm2%202v2h2V7zm6%200h10v2H11zm0%208h10v2H11zm-6%205-3.5-3.5%201.41-1.41L5%2017.17l4.59-4.58L11%2014z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%209h-2V7h2m0%2010h-2v-6h2m-1-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%206a6%206%200%200%201%206%206c0%202.22-1.21%204.16-3%205.2V19a1%201%200%200%201-1%201h-4a1%201%200%200%201-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6%206%200%200%201%206-6m2%2015v1a1%201%200%200%201-1%201h-2a1%201%200%200%201-1-1v-1zm6-10h3v2h-3zM1%2011h3v2H1zM13%201v3h-2V1zM4.92%203.5l2.13%202.14-1.42%201.41L3.5%204.93zm12.03%202.13%202.12-2.13%201.43%201.43-2.13%202.12z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m9%2020.42-6.21-6.21%202.83-2.83L9%2014.77l9.88-9.89%202.83%202.83z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m15.07%2011.25-.9.92C13.45%2012.89%2013%2013.5%2013%2015h-2v-.5c0-1.11.45-2.11%201.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2%202%200%200%200-2-2%202%202%200%200%200-2%202H8a4%204%200%200%201%204-4%204%204%200%200%201%204%204%203.2%203.2%200%200%201-.93%202.25M13%2019h-2v-2h2M12%202A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10c0-5.53-4.5-10-10-10%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%2014h-2V9h2m0%209h-2v-2h2M1%2021h22L12%202z%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%206.91%2017.09%204%2012%209.09%206.91%204%204%206.91%209.09%2012%204%2017.09%206.91%2020%2012%2014.91%2017.09%2020%2020%2017.09%2014.91%2012z%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%202v11h3v9l7-12h-4l4-8z%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2012h-4v-2h4m0%206h-4v-2h4m6-6h-2.81a6%206%200%200%200-1.82-1.96L17%204.41%2015.59%203l-2.17%202.17a6%206%200%200%200-2.83%200L8.41%203%207%204.41l1.62%201.63C7.88%206.55%207.26%207.22%206.81%208H4v2h2.09c-.05.33-.09.66-.09%201v1H4v2h2v1c0%20.34.04.67.09%201H4v2h2.81c1.04%201.79%202.97%203%205.19%203s4.15-1.21%205.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20z%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%202v2h1v14a4%204%200%200%200%204%204%204%204%200%200%200%204-4V4h1V2zm4%2014c-.6%200-1-.4-1-1s.4-1%201-1%201%20.4%201%201-.4%201-1%201m2-4c-.6%200-1-.4-1-1s.4-1%201-1%201%20.4%201%201-.4%201-1%201m1-5h-4V4h4z%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2017h3l2-4V7h-6v6h3M6%2017h3l2-4V7H5v6h3z%22/%3E%3C/svg%3E');}</style>
+
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2013h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-3-rectifier" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="BEEE notes" class="md-header__button md-logo" aria-label="BEEE notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BEEE notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 3: Rectifier
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="BEEE notes" class="md-nav__button md-logo" aria-label="BEEE notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    BEEE notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ETC1023: Intrumentation, Measures & Control
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ETC1023: Intrumentation, Measures & Control
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ETL1023 Instrumentation/Chapter1" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter1: Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ETL1023 Instrumentation/Chapter2" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter2: Instrument types & Performance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ETL1023 Instrumentation/Chapter3" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter3: Measurement Uncertainty
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EPM2003: Project Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    EPM2003: Project Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EPM2003 Project Management/wifi" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wifi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EPM2003 Project Management/ThingSpeak" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ThingSpeak
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ETL1023: Analogue Electronic
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ETL1023: Analogue Electronic
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ETL1023 Analogue Electronic/Rectifier" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Rectifier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ENG2053: Engineering Mathematics 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ENG2053: Engineering Mathematics 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ENG2053 Engineering Math 3/Orthogonal" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3: Orthogonal & Non-Orthogonal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ENG2053 Engineering Math 3/FourierPart1" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4: Fourier Series I
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ENG2053 Engineering Math 3/FourierPart2" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5: Fourier Series II
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ETC3143: Advanced Digital Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ETC3143: Advanced Digital Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ETC3143 Advanced Digital Design/Fundamentals" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 0: Recap from Digital Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Content">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Content
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ac-to-dc-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AC to DC Conversion
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#half-wave-rectifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Half-wave Rectifier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Half-wave Rectifier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ideal-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ideal Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constant-voltage-drop-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Constant Voltage Drop Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consideration-for-diode-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consideration for diode selection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consideration for diode selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diodes-current-handling-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diode's current-handling capability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diodes-peak-inverse-voltage-piv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diode's peak inverse voltage (PIV)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-consideration-with-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example consideration with graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#full-wave-rectifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Full-wave Rectifier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Full-wave Rectifier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ideal-model_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ideal Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constant-voltage-drop-model_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Constant Voltage Drop Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-tapped-full-wave-rectifier-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Center-Tapped Full-Wave Rectifier Operation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-tapped-full-wave-rectifier-piv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Center-Tapped Full-Wave Rectifier PIV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bridge-full-wave-rectifier-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bridge Full-Wave Rectifier Operation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bridge-full-wave-rectifier-piv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bridge Full-Wave Rectifier PIV
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peak-rectifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peak Rectifier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Peak Rectifier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operation-ideal-diode-capacitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation (Ideal diode &amp; capacitor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operation-ideal-diode-but-normal-capacitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation (Ideal diode, but normal capacitor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#derivation-of-filter-circuit-half-wave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Derivation of filter circuit (Half-wave)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#derivation-of-filter-circuit-full-wave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Derivation of filter circuit (Full-wave)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-3-rectifier">Chapter 3: Rectifier<a class="headerlink" href="#chapter-3-rectifier" title="Permanent link">&para;</a></h1>
+<h2 id="ac-to-dc-conversion">AC to DC Conversion<a class="headerlink" href="#ac-to-dc-conversion" title="Permanent link">&para;</a></h2>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/88f6455cd04a762483d9488db68318fa35be0577/docs/ETL1023%20Analogue%20Electronic/BlockDC.png?raw=true" alt="BlockDC">
+</div>
+
+<p><strong>Output DC voltage</strong> is used to power most electronic circuits, including consumer electronics, computers, industrial controllers, and laboratory instrumentation systems and equipment. <strong>Rectifier</strong> can be either a <em>half-wave rectifier</em> or <em>full-wave rectifier</em>. <strong>Rectifier</strong> converts <em>AC input voltage</em> to <em>pulsating DC voltage</em>. <strong>Filter</strong> then eliminates the fluctuations in the rectified voltage and <em>produces a relatively smooth dc voltage</em>. <strong>Regulator</strong> then <em>maintains a constant dc voltage</em> for variations in the input line voltage or in the load. </p>
+<h2 id="half-wave-rectifier">Half-wave Rectifier<a class="headerlink" href="#half-wave-rectifier" title="Permanent link">&para;</a></h2>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave1.png?raw=true" alt="HWRectifier">
+</div>
+
+<p>A <em>diode</em> is connected to an <em>ac source</em> and to a <em>load resistor</em>, <span class="arithmatex">\(R_L\)</span> forming a <strong>half-wave rectifier</strong>.</p>
+<h3 id="ideal-model">Ideal Model<a class="headerlink" href="#ideal-model" title="Permanent link">&para;</a></h3>
+<p>If we use an <em>ideal model</em> for the <strong>diode</strong>, we basically ignore the <em>voltage drop of the diode</em>, as the the <strong>diode</strong> is a <em>short circuit</em> <code>R = 0 Ω</code> when <em>forward-biased</em> and <em>open circuit</em> <code>R = ∞ Ω</code> when <em>reversed-biased</em>. </p>
+<h3 id="constant-voltage-drop-model">Constant Voltage Drop Model<a class="headerlink" href="#constant-voltage-drop-model" title="Permanent link">&para;</a></h3>
+<p>If we use a <em>constant voltage drop model</em> for the <strong>diode</strong>, we have to take into account the voltage drop , <span class="arithmatex">\(V_D\)</span> when <em>forward biased</em> of the <strong>diode</strong> as a constant value, typically around <strong>0.7 V for silicon diode</strong> and <strong>0.3 V for germanium diode</strong>. This can be shown in the graph below, where <span class="arithmatex">\(V_D\)</span> is the <strong>constant voltage drop of diode</strong>:</p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferConstantVoltageD.png?raw=true" alt="TCConstantVD">
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Barrier Potential</p>
+<p>Basically, when using a diode, <em>input voltage</em> must overcome the <strong>barrier potential or voltage drop of 0.7 V (silicon)</strong> before diode can become forward-biased. This results in a <strong>output</strong>, <span class="arithmatex">\(V_O\)</span> with peak value that is <strong>0.7 V less than peak value of input</strong>, <span class="arithmatex">\(V_S\)</span> :
+$$
+V_{O} = V_{S} - 0.7 V
+$$  </p>
+</div>
+<h3 id="operation">Operation<a class="headerlink" href="#operation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Using the <strong>Constant Voltage Drop Model</strong>, when the sinusoidal input voltage, <span class="arithmatex">\(V_S\)</span> goes <em>positive</em>, <strong>diode</strong> is <em>forward-biased</em> and <em>conducts current</em>. Current passes through load resistor and produces an output voltage across the load resistor, which is the <span class="arithmatex">\(V_O\)</span> or <span class="arithmatex">\(V_S - V_D\)</span> in the graph:  </li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8d13c6e94ca493ecda8ae836e3557ae60e20227a/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave2.png?raw=true" alt="HWRectifierFB">
+</div>
+
+<ul>
+<li>Using the <strong>Constant Voltage Drop Model</strong>, when the sinusoidal input voltage, <span class="arithmatex">\(V_S\)</span> goes <em>negative</em> during the second half of its cycle, <strong>diode</strong> is <em>reversed-biased</em> and source voltage appears across the diode (Diode takes all the voltage). There is <em>no current</em>, so voltage across load resistor is 0 V, hence producing <span class="arithmatex">\(V_O\)</span> or <span class="arithmatex">\(V_S - V_D\)</span> of <strong>0 V</strong>. The net result is that only <strong>positive half-cycles</strong> of AC input voltage appear across the load:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/a36e4653f1f2d635f14db6240efc684a3d73cfa9/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave3.png?raw=true" alt="HWRectifierRB">
+</div>
+
+<ul>
+<li>
+<p>Since, the <span class="arithmatex">\(V_O\)</span> does not change polarity, it is a pulsating dc voltage. </p>
+</li>
+<li>
+<p>If we were using an <strong>Ideal Diode Model</strong>, the graph would look the same as the output <em>Constant Voltage Drop Model</em>, but the <span class="arithmatex">\(V_O\)</span> will not be considering the <strong>voltage drop of diode</strong>, hence during the <em>positive cycle</em>, the <span class="arithmatex">\(V_O\)</span> will be just the <span class="arithmatex">\(V_S\)</span> or same as the source voltage in the graph above, while for <strong>Constant Voltage Drop Model</strong>, it will be <span class="arithmatex">\(V_S - V_D\)</span>. </p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>It is usually acceptable to use the <strong>ideal diode model</strong>, which neglects the effect of <em>barrier potential (voltage drop)</em>, when the peak value of <em>applied voltage</em> is <strong>much greater</strong> than the <em>barrier potential (voltage drop)</em> </p>
+</div>
+<h3 id="consideration-for-diode-selection">Consideration for diode selection<a class="headerlink" href="#consideration-for-diode-selection" title="Permanent link">&para;</a></h3>
+<h4 id="diodes-current-handling-capability">Diode's current-handling capability<a class="headerlink" href="#diodes-current-handling-capability" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Refers to the <em>maximum forward current</em> it can safely conduct without damage. </li>
+<li>During the positive half-cycle of input AC Voltage, the diode conducts current to the load. This current <em>must not exceed the diode's rated</em> <span class="arithmatex">\(I_F\)</span>.</li>
+<li>This is because excessive current raises the diode's internal temperature.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>If the <strong>input AC peak current</strong>, <span class="arithmatex">\(I_{peak} = 100 mA\)</span>, the diode's rated <span class="arithmatex">\(I_F\)</span> must be <span class="arithmatex">\(&gt; 100 mA\)</span></p>
+</div>
+<h4 id="diodes-peak-inverse-voltage-piv">Diode's peak inverse voltage (PIV)<a class="headerlink" href="#diodes-peak-inverse-voltage-piv" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Refers to the <em>maximum reverse voltage</em> across the diode during the negative half-cycle.</li>
+<li>It is used to determine the <em>maximum reverse voltage (PIV rating)</em> the diode can withstand without breaking down.</li>
+<li>During the negative half-cycle, the diode is reverse-biased. The <strong>diode takes the entire voltage from the source when it is reverse-biased</strong> according to Kirchoff's Voltage Law, as voltage across resistor is zero. </li>
+<li>The PIV rating of the diode <em>must be at least the peak input voltage</em>, <span class="arithmatex">\(V_{peak}\)</span>.</li>
+<li>If the reverse voltage exceeds diode's PIV rating, breakdown of diode can occur, potentially damaging or destroying the diode. </li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Recommendation</p>
+<p>It is recommeneded to have <span class="arithmatex">\(V_{BR} &gt; 1.5 PIV\)</span>, where <span class="arithmatex">\(V_{BR}\)</span> is the <em>diode's reverse breakdown voltage</em>. This is to provide a safety margin for voltage spikes or transients. </p>
+</div>
+<h4 id="example-consideration-with-graphs">Example consideration with graphs<a class="headerlink" href="#example-consideration-with-graphs" title="Permanent link">&para;</a></h4>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/9b75d240a3ad9d2f4b005ed934daec2b27e84aff/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Halfwave4.png?raw=true" alt="HWRectifierPIVI">
+</div>
+
+<p>To calculate the peak current through the diode during the positive half-cycle:
+$$
+I_{\text{forward}} = \frac{V_S - V_D}{R_{\text{load}}}
+$$
+Where, <span class="arithmatex">\(V_S\)</span> : Peak Source Voltage, <span class="arithmatex">\(V_D\)</span> : Diode's Forward Voltage Drop (≈ 0.7 V), <span class="arithmatex">\(R_{load}\)</span> : Load Resistance</p>
+<p><strong>Hence, diode's current rating,</strong> <span class="arithmatex">\(I_F\)</span> <strong>must exceed the value of</strong> <span class="arithmatex">\(I_{\text{forward}}\)</span> . </p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>If <span class="arithmatex">\(I_{\text{forward}} = 93 mA\)</span> , then we must select a diode with <span class="arithmatex">\(I_F &gt; 93 mA\)</span> </p>
+</div>
+<p>To find PIV for diode:
+$$
+PIV = V_{peak}
+$$
+Where, <span class="arithmatex">\(V_{peak}\)</span> is the peak input voltage, <span class="arithmatex">\(V_S\)</span></p>
+<p><strong>Hence, diode's PIV rating or</strong> <span class="arithmatex">\(V_{BR}\)</span> <strong>must be more than</strong> <span class="arithmatex">\(1.5 PIV\)</span> .</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>If <span class="arithmatex">\( V_S = 10\,\text{V} \)</span>, then the peak inverse voltage (PIV) is also <span class="arithmatex">\( 10\,\text{V} \)</span>.<br />
+We must choose a diode with a breakdown voltage <span class="arithmatex">\( V_{\text{BR}} \)</span> greater than 1.5 times the PIV:</p>
+<div class="arithmatex">\[
+V_{\text{BR}} &gt; 1.5 \times 10\,\text{V} = 15\,\text{V}
+\]</div>
+</div>
+<h2 id="full-wave-rectifier">Full-wave Rectifier<a class="headerlink" href="#full-wave-rectifier" title="Permanent link">&para;</a></h2>
+<p><strong>Full-wave rectifier</strong> allows unidirectional (one-way) current through the load during the <em>entire 360° of the input cycle</em>. Whereas, <strong>half-wave rectifier</strong> only allows current through the load only during <em>one-half of the cycle</em>. Thus, <strong>full-wave rectification</strong> will produce an output voltage with a frequency <em>twice the input frequency</em> and <em>pulsates every half-cycle of input</em>.</p>
+<h3 id="ideal-model_1">Ideal Model<a class="headerlink" href="#ideal-model_1" title="Permanent link">&para;</a></h3>
+<p>If we use an <em>ideal model</em> for the <strong>diode</strong>, we basically ignore the <em>voltage drop of the diode</em>, as the the <strong>diode</strong> is a <em>short circuit</em> <code>R = 0 Ω</code> when <em>forward-biased</em> and <em>open circuit</em> <code>R = ∞ Ω</code> when <em>reversed-biased</em> same like what it is used for in <em>half-wave rectifier</em>. </p>
+<h3 id="constant-voltage-drop-model_1">Constant Voltage Drop Model<a class="headerlink" href="#constant-voltage-drop-model_1" title="Permanent link">&para;</a></h3>
+<p>If we use a <em>constant voltage drop model</em> for the <strong>diode</strong> in <strong>full-wave rectifier</strong>, we have to take into account the voltage drop , <span class="arithmatex">\(V_D\)</span> when <em>forward biased</em> of the <strong>diode</strong> as a constant value, typically around <strong>0.7 V for silicon diode</strong> and <strong>0.3 V for germanium diode</strong>. </p>
+<p>Looking at the graph below, the slopes are ±1, as a <strong>full-wave rectifier</strong> inverts the negative half of the input sine wave so that <em>both positive and negative inputs produce a positive output</em> for the resistor:
+$$
+V_{out} = |V_{in}|
+$$</p>
+<p>Hence, </p>
+<div class="arithmatex">\[
+V_{out} = 
+\begin{cases}
+V_{in} &amp; \text{if } V_{in} &gt; 0 \quad (\text{Slope} = +1) \\
+-V_{in} &amp; \text{if } V_{in} &lt; 0 \quad (\text{Slope} = -1)
+\end{cases}
+\]</div>
+<p>Graphically, this forms a <strong>V-shaped curve</strong>, where the output mirrors the input during the positive half and flips it during the negative half. The curve near the origin is slightly <strong>flatenned</strong>, meaning <em>no output until</em> <span class="arithmatex">\(|V_{in}|\)</span> <em>exceeds the diode drops</em>, <span class="arithmatex">\(V_D\)</span>. This can be shown in the graph below, where <span class="arithmatex">\(V_D\)</span> is the <strong>constant voltage drop of diode</strong>:</p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6c39dde28b20996bc91c08ef7813201fb6df2b83/docs/ETL1023%20Analogue%20Electronic/RectifierPic/TransferFWR.png?raw=true" alt="TCConstantVFW">
+</div>
+
+<h3 id="center-tapped-full-wave-rectifier-operation">Center-Tapped Full-Wave Rectifier Operation<a class="headerlink" href="#center-tapped-full-wave-rectifier-operation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Center-tapped rectifier</strong> is a type of <em>full-wave rectifier</em> that uses <em>two diodes connected to the secondary of a center-tapped transformer</em>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6fdf8e581b8fdf6e4904b4d415cd7ae2ca995bf1/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CTFW1.png?raw=true" alt="CTFW1">
+</div>
+
+<div class="admonition info">
+<p class="admonition-title">Why Center-Tapped</p>
+<p><strong>Half of the total secondary voltage</strong> appears between the center tap and each end of the secondary winding (<em>Each side have same number of turns</em>, producing 2 equal halves)</p>
+</div>
+<ul>
+<li>
+<p>Using a <strong>ideal diode model</strong>, during the <em>positive half-cycle of input voltage</em>, diode <span class="arithmatex">\(D_1\)</span> is <em>forward-biased</em> and diode <span class="arithmatex">\(D_2\)</span> is <em>reverse-biased</em>. Since, it is <strong>ideal diode</strong>, there will be <em>no voltage drop</em> across the diode. The current path is through <span class="arithmatex">\(D_1\)</span> and load resistor <span class="arithmatex">\(R_L\)</span>. Basically, the output waveform will be <span class="arithmatex">\(V_S\)</span> same as the <em>postiive half-cycle of input voltage</em>. </p>
+</li>
+<li>
+<p>Using a <strong>ideal diode model</strong>, during the <em>negative half-cycle of input voltage</em>, diode <span class="arithmatex">\(D_1\)</span> is <em>reverse-biased</em> and diode <span class="arithmatex">\(D_2\)</span> is <em>forward-biased</em>. Since, it is <strong>ideal diode</strong>, there will be <em>no voltage drop</em> across the diode. The current path is through <span class="arithmatex">\(D_2\)</span> and load resistor <span class="arithmatex">\(R_L\)</span>. Basically, the output waveform will be <span class="arithmatex">\(V_S\)</span> same as the <em>postive half-cycle of input voltage</em>. </p>
+</li>
+<li>
+<p>As a result, the output current during <strong>both positive and negative</strong> portions of the input cycle through the load will be in the <strong>same direction</strong>, hence output voltage across load resistor is a <strong>full-wave rectified dc voltage</strong>.</p>
+</li>
+<li>
+<p>On the other hand, if we were using a <strong>constant voltage drop diode model</strong>, the process will be the <em>same as the ideal diode model</em>, but we would have to consider the <strong>constant forward voltage drop across the diode</strong>, <span class="arithmatex">\(V_D\)</span> during <strong>forward-biased</strong>, which are around <em>0.7 V for silicon diode</em> and <em>0.3 V for germanium diode</em>. Hence, the output peak value will be <span class="arithmatex">\(V_S - V_D\)</span> for the complete cycle just like in the graph below. </p>
+</li>
+<li>
+<p>Graph during the <strong>positive half-cycle of input voltage</strong>:</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT1.png?raw=true" alt="FullwaveCT1">
+</div>
+
+<ul>
+<li>Graph during the <strong>negative half-cycle of input voltage</strong>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT2.png?raw=true" alt="FullwaveCT2">
+</div>
+
+<ul>
+<li>Graph of <strong>full complete waveform</strong>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/51873780389343678e181a2f87dc3bf7418c9140/docs/ETL1023%20Analogue%20Electronic/RectifierPic/FullwaveCT3.png?raw=true" alt="FullwaveCT3">
+</div>
+
+<div class="admonition warning">
+<p class="admonition-title">Ideal diode model</p>
+<p>For <strong>Ideal diode model</strong>, instead of <span class="arithmatex">\(V_S - V_D\)</span> , it will be just <span class="arithmatex">\(V_S\)</span> , same value as the input voltage for both cycles.  </p>
+</div>
+<h3 id="center-tapped-full-wave-rectifier-piv">Center-Tapped Full-Wave Rectifier PIV<a class="headerlink" href="#center-tapped-full-wave-rectifier-piv" title="Permanent link">&para;</a></h3>
+<p>In a center-tapped rectifier, during the positive half-cycle, one diode <span class="arithmatex">\(D_1\)</span> conducts and in forward-biased, while the other diode <span class="arithmatex">\(D_2\)</span> is in reverse-biased. Meanwhile, during the negative half-cycle, the vice versa happens. </p>
+<p>To derive the <strong>Peak Inverse Voltage (PIV)</strong> for diodes in a <strong>center-tapped full-wave rectifier</strong>: </p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/3a26a68cfb3c35e75079b8e27be6578a948e6e8b/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVCTFWR.png?raw=true" alt="FullwaveCT3">
+</div>
+
+<p>When diode <span class="arithmatex">\( D_2 \)</span> is in reverse bias, the voltage across <span class="arithmatex">\( D_2 \)</span> is:</p>
+<div class="arithmatex">\[
+V_{D2} = V_O - (-V_S)
+\]</div>
+<p>The waveform reaches its peak/maximum value when <span class="arithmatex">\( V_O = V_S - V_D \)</span>.  </p>
+<p>Since <span class="arithmatex">\( D_2 \)</span> is reverse-biased, <span class="arithmatex">\( V_{D2} = \text{PIV} \)</span>:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\text{PIV} &amp;= V_O - (-V_S) \\
+           &amp;= V_O + V_S
+\end{align*}
+\]</div>
+<p>Substituting <span class="arithmatex">\( V_O = V_S - V_D \)</span>:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\text{PIV} &amp;= (V_S - V_D) + V_S \\
+           &amp;= 2V_S - V_D
+\end{align*}
+\]</div>
+<div class="admonition success">
+<p class="admonition-title">Final Equation for Center-Tapped Full Wave Rectifier</p>
+<p><strong>PIV (Peak Inverse Voltage)</strong> is the <em>maximum reverse voltage of the diode</em> when reverse-biased. Hence in this case, for <strong>center-tapped full wave rectifier</strong>, it is <span class="arithmatex">\( \text{PIV} = 2V_S - V_D \)</span> .  </p>
+</div>
+<h3 id="bridge-full-wave-rectifier-operation">Bridge Full-Wave Rectifier Operation<a class="headerlink" href="#bridge-full-wave-rectifier-operation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Bridge Full-Wave Rectifier</strong> is a <em>full-wave rectifier</em> <strong>without</strong> the need of a <strong>center-tapped transformer</strong>. It uses <strong>4 diodes</strong>, with arrangements similar to <em>Wheatstone bridge</em>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/6d5226ee13d06353193f7445549ec4b90667d957/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge1.png?raw=true" alt="Bridge1">
+</div>
+
+<ul>
+<li>
+<p>Using an <strong>ideal-diode model</strong>, when the input cycle is positive, diodes <span class="arithmatex">\(D_1\)</span> and <span class="arithmatex">\(D_2\)</span> are <strong>forward-biased</strong> and conduct current. A voltage is developed across the resistor and same like the <em>positive half of the input cycle</em> since we <em>do not have to consider the voltage drop across the diode</em>. During this time, diodes <span class="arithmatex">\(D_3\)</span> and <span class="arithmatex">\(D_4\)</span> are <strong>reverse-biased</strong>. </p>
+</li>
+<li>
+<p>Using an <strong>ideal-diode model</strong>, when the input cycle is negative, diodes <span class="arithmatex">\(D_3\)</span> and <span class="arithmatex">\(D_4\)</span> are <strong>forward-biased</strong> and conduct current in the <strong>same direction as positive half-cycle through the resistor</strong>. A voltage is developed across the resistor and same like the <em>positive half of the input cycle</em> (<em>because same current direction</em>) since we <em>do not have to consider the voltage drop across the diode</em>. During this time, diodes <span class="arithmatex">\(D_1\)</span> and <span class="arithmatex">\(D_2\)</span> are <strong>reverse-biased</strong>. As a result, a <strong>full-wave rectified output voltage</strong> appears across the resistor. </p>
+</li>
+<li>
+<p>Using a <strong>constant voltage drop diode model</strong>, the <em>process of the rectification will be the same</em> as the ideal-diode model, but we have to consider the <em>constant voltage drop across the diodes</em>. Looking at the process illustration below, <strong>2 diodes are always in series with the load resistor</strong>, whether it is positive or negative half-cycles. So, if we take into account the diode drops, the output voltage is:
+$$
+V_O = V_S - 2V_D
+$$</p>
+</li>
+<li>
+<p>Graph during the <strong>positive half-cycle of input voltage</strong>:</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge2.png?raw=true" alt="Bridge2">
+</div>
+
+<ul>
+<li>Graph during the <strong>negative half-cycle of input voltage</strong>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge3.png?raw=true" alt="Bridge3">
+</div>
+
+<ul>
+<li>Graph of <strong>full complete waveform</strong>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/8e7c7aa0742b47cc1e14ca82a9a5c8a202b1575f/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Bridge4.png?raw=true" alt="Bridge4">
+</div>
+
+<div class="admonition warning">
+<p class="admonition-title">Ideal diode model</p>
+<p>For <strong>Ideal diode model</strong>, instead of <span class="arithmatex">\(V_S - 2V_D\)</span> , it will be just <span class="arithmatex">\(V_S\)</span> , same value as the input voltage for both cycles.   </p>
+</div>
+<h3 id="bridge-full-wave-rectifier-piv">Bridge Full-Wave Rectifier PIV<a class="headerlink" href="#bridge-full-wave-rectifier-piv" title="Permanent link">&para;</a></h3>
+<p>To derive the PIV for <strong>Bridge Full-Wave Rectifier</strong>, we look at the circuit during positive input cycle, when diodes <span class="arithmatex">\(D_1\)</span> and <span class="arithmatex">\(D_2\)</span> are <strong>forward-biased</strong> and diodes <span class="arithmatex">\(D_3\)</span> and <span class="arithmatex">\(D_4\)</span> are <strong>reverse-biased</strong>:</p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc41f80ea40bf403faf4b50f191c0a04e09968c8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/PIVBridge.png?raw=true" alt="PIVBridge">
+</div>
+
+<p>Voltage after <span class="arithmatex">\(D_2\)</span> is</p>
+<div class="arithmatex">\[
+0 - V_{D2} = -V_{D2}
+\]</div>
+<p>This is also the voltage on the <strong>left side of</strong> <span class="arithmatex">\(D_3\)</span> . </p>
+<p>Voltage on the right side of <span class="arithmatex">\(D_3\)</span> is <span class="arithmatex">\(V_O\)</span>, <strong>due to the ground</strong> being on the other side of the resistor. </p>
+<p>When <span class="arithmatex">\(D_3\)</span> is in reverse-biased, reverse voltage across <span class="arithmatex">\(D_3\)</span> is</p>
+<div class="arithmatex">\[
+V_{D3} = V_O - (-V_{D2})
+\]</div>
+<p>The waveform reaches its peak/maximum value when</p>
+<div class="arithmatex">\[
+V_{O} = V_S - 2V_{D}
+\]</div>
+<p>Since <span class="arithmatex">\( D_3 \)</span> is reverse-biased, we can use <span class="arithmatex">\( V_{D3} = \text{PIV} \)</span>:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\text{PIV} &amp;= V_O - (-V_{D2}) \\
+           &amp;= V_O + V_{D2}
+\end{align*}
+\]</div>
+<p>Substituting <span class="arithmatex">\( V_O = V_S - 2V_D \)</span> and assuming that all diodes are the same:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\text{PIV} &amp;= (V_S - 2V_D) + V_D \\
+           &amp;= V_S - V_D
+\end{align*}
+\]</div>
+<div class="admonition success">
+<p class="admonition-title">Final Equation for Bridge Full Wave Rectifier</p>
+<p><strong>PIV (Peak Inverse Voltage)</strong> is the <em>maximum reverse voltage of the diode</em> when reverse-biased. Hence in this case, for <strong>bridge full wave rectifier</strong>, it is <span class="arithmatex">\( \text{PIV} = V_S - V_D \)</span> .  </p>
+</div>
+<h2 id="peak-rectifier">Peak Rectifier<a class="headerlink" href="#peak-rectifier" title="Permanent link">&para;</a></h2>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Rectified waveform <em>removes the segments of negative input waveform</em> and produces a <strong>pulsating DC output</strong>. </p>
+</li>
+<li>
+<p>This <strong>pulsating DC output</strong> is still <strong>unsuitable</strong> as a dc power supply, as the <em>voltage constantly varies between peak voltage and zero</em> due to its <em>pulsating nature</em>. </p>
+</li>
+</ul>
+<p>This <strong>pulsating nature</strong> can be resolved with a <strong>filter capacitor</strong>:</p>
+<ol>
+<li>The <strong>capacitor</strong> is placed in parallel with the load to smooth the output voltage.</li>
+<li>The capacitor <strong>charges during voltage peaks</strong> and <strong>discharges during voltage valleys</strong>.</li>
+<li>This helps to <strong>reduce the ripple voltage</strong> (i.e., the remaining small fluctuations).</li>
+<li>As a result, the capacitor filter <strong>smooths the output voltage to a near-constant DC</strong>.</li>
+</ol>
+<h3 id="operation-ideal-diode-capacitor">Operation (Ideal diode &amp; capacitor)<a class="headerlink" href="#operation-ideal-diode-capacitor" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>Ideal diode</strong>: Zero voltage drop when forward-biased, infinite resistance when reverse-biased</p>
+</li>
+<li>
+<p><strong>Ideal capacitor</strong>: No leakage, infinite resistance when fully charged (i.e., holds charge forever unless discharged through a load)</p>
+</li>
+<li>
+<p>At <span class="arithmatex">\(t = 0\)</span>, the capacitor voltage <span class="arithmatex">\(v_C = 0 V\)</span> (<strong>Uncharged</strong>). As the AC input voltage <span class="arithmatex">\(v_s\)</span> starts increasing from 0 toward its positive peak, the diode becomes <strong>forward-biased</strong> when <span class="arithmatex">\(v_s &gt; V_C\)</span> (which is initially 0). The diode conducts and <strong>charges the capacitor</strong>:</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal1.png?raw=true" alt="CapIdeal1">
+</div>
+
+<ul>
+<li>
+<p>The capacitor continues charging as long as <span class="arithmatex">\(v_s\)</span> is increasing and greater than <span class="arithmatex">\(V_C\)</span>. Once the <strong>input voltage reaches its peak</strong>, say <span class="arithmatex">\(V_{peak}\)</span>, the capacitor <strong>charges up to this value</strong>:
+$$
+V_C = V_S = V_{peak}
+$$</p>
+</li>
+<li>
+<p>After the input voltage begins to drop below the peak, <span class="arithmatex">\(v_s &lt; V_C\)</span>, hence diode becomes <strong>off</strong> and <strong>no current flows</strong> anymore. Because the capacitor is <strong>ideal</strong>, it does not discharge (<strong>no leakage</strong>), so it holds its voltage at <span class="arithmatex">\(V_{peak}\)</span> indefinetly:</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal2.png?raw=true" alt="CapIdeal2">
+</div>
+
+<ul>
+<li>Since the diode is <strong>off</strong> and in <strong>reverse-biased</strong>, the capacitor is isolated and maintain its voltage:
+$$
+V_O = V_C = V_S 
+$$</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal3.png?raw=true" alt="CapIdeal3">
+</div>
+
+<ul>
+<li>During the next cycles of the AC waveform, diode will only turn on again if <span class="arithmatex">\(v_s\)</span> rises above the stored <span class="arithmatex">\(V_C\)</span>. But since <span class="arithmatex">\(v_s\)</span> <strong>never exceeds the peak again</strong> (or only does so momentarily), the diode remains mostly <strong>off</strong> due to <strong>ideal capacitor characteristics</strong>. Thus, output voltage remains at <span class="arithmatex">\(V_S\)</span> or <span class="arithmatex">\(V_{peak}\)</span>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal4.png?raw=true" alt="CapIdeal4">
+</div>
+
+<div class="admonition question">
+<p class="admonition-title">Why so</p>
+<p>Now, when the ideal capacitor gets <strong>fully charged</strong>, the circuit is effectively an <strong>open circuit</strong>. Hence, there is no way for current to flow. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Unless....</p>
+<p>Unless there's a load, in which case the capacitor might discharge slightly and get "topped up" when <span class="arithmatex">\(v_s &gt; V_C\)</span></p>
+</div>
+<ul>
+<li>Since the <span class="arithmatex">\(V_O\)</span> is a DC voltage equal to the <strong>peak of the input wave</strong>, the circuit is known as <strong>peak rectifier</strong> or <strong>peak detector</strong>:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/c1fd3856f9ab8005b07ad805c7c44408273a1cd6/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapIdeal5.png?raw=true" alt="CapIdeal5">
+</div>
+
+<div class="admonition abstract">
+<p class="admonition-title">For your information</p>
+<p>Peak rectifier or peak detector is commonly used in <strong>signal processing, power supply smoothening and precision rectifier circuits</strong>.</p>
+</div>
+<h3 id="operation-ideal-diode-but-normal-capacitor">Operation (Ideal diode, but normal capacitor)<a class="headerlink" href="#operation-ideal-diode-but-normal-capacitor" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>A more practical implementation includes <strong>a load resistance R</strong> connected across <strong>a normal capacitor C</strong>. </p>
+</li>
+<li>
+<p><strong>Ideal Diode</strong>: No voltage drop when forward-biased and infinite resistance when reverse-biased.</p>
+</li>
+<li>
+<p><strong>Capacitor</strong>: Stores charges, but can now discharge through load resistor R.</p>
+</li>
+<li>
+<p><strong>Resistor R</strong>: Represents the load across which output is taken. </p>
+</li>
+<li>
+<p>Output Voltage, <span class="arithmatex">\(V_O = V_C\)</span> which is the <em>voltage of the capacitor</em>. </p>
+</li>
+<li>
+<p>At <span class="arithmatex">\(t = 0\)</span> , <span class="arithmatex">\(V_C = 0\)</span> , <strong>capacitor is initially uncharged</strong>. The diode becomes <strong>forward-biased</strong> as soon as <span class="arithmatex">\(v_s &gt; 0\)</span> , conducts current and the <strong>capacitor charges up</strong> as long as <span class="arithmatex">\(v_s &gt; V_C\)</span> :</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN1.png?raw=true" alt="CapN1">
+</div>
+
+<ul>
+<li>
+<p>The capacitor tracks the input voltage while it's rising. When the input voltage <strong>reaches its peak</strong>, the capacitor <strong>charges fully</strong>:
+$$
+V_C = V_S = V_{peak} 
+$$</p>
+</li>
+<li>
+<p>After the input voltage passes the peak and starts to fall, <span class="arithmatex">\(v_s &lt; V_C\)</span> , so diode becomes <strong>reverse-biased</strong>. At this point, the capacitor begins to <strong>discharge through resistor R</strong>. The voltage across the capacitor drops exponentially: <span class="arithmatex">\(V_{C}(t) = V_{\text{peak}} e^{-\frac{t}{RC}}\)</span>
+, until the diode turns on again in the next cycle:</p>
+</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN2.png?raw=true" alt="CapN2">
+</div>
+
+<ul>
+<li>Capacitor continue to <strong>discharge</strong>, as the diode is still off and in <strong>reverse-biased</strong>. At this point, there is no current flow from the source, but the capacitor <strong>continues to power the load R</strong> and the output voltage (capacitor voltage) gradually <strong>drops even more</strong> during this time:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN3.png?raw=true" alt="CapN3">
+</div>
+
+<ul>
+<li>In the next cycle, when the <em>input voltage again excceds the decayed capacitor voltage</em>, <span class="arithmatex">\(v_s &gt; V_{C}(t)\)</span> , the diode becomes <strong>forward-biased</strong> again and the capacitor is <strong>topped up and charged</strong> back to the new peak value of <span class="arithmatex">\(V_S\)</span> :</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN4.png?raw=true" alt="CapN4">
+</div>
+
+<ul>
+<li>The cycle repeats itself:</li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN5.png?raw=true" alt="CapN5">
+</div>
+
+<ul>
+<li>As a result, the output voltage, <span class="arithmatex">\(V_O = V_C\)</span> is not perfectly flat, but a rippled DC: </li>
+</ul>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7b2ffb11d91270ef19d8c7dd82d544423a7ebd58/docs/ETL1023%20Analogue%20Electronic/RectifierPic/CapN6.png?raw=true" alt="CapN6">
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Basically, the capacitor:</p>
+<ul>
+<li>quickly <strong>charges</strong> to the peak when the diode <strong>conducts</strong> </li>
+<li><strong>discharges</strong> slowly through R <strong>until the next peak</strong> </li>
+</ul>
+<p>Which results in <strong>small ripples</strong> around the peak voltage and the amount of ripple depends on <strong>R &amp; C</strong>: </p>
+<div class="arithmatex">\[
+V_{\text{ripple}} \propto \frac{1}{RC}
+\]</div>
+<ul>
+<li><strong>Larger C</strong>: Slower discharge &amp; less ripple</li>
+<li><strong>Larger R</strong>: smaller load current &amp; less ripple</li>
+</ul>
+</div>
+<h3 id="derivation-of-filter-circuit-half-wave">Derivation of filter circuit (Half-wave)<a class="headerlink" href="#derivation-of-filter-circuit-half-wave" title="Permanent link">&para;</a></h3>
+<p>In an RC filter circuit, <span class="arithmatex">\(v_c\)</span> <strong>decays exponentiatlly</strong> over time with time constant <span class="arithmatex">\(τ = CR\)</span> , where <em>C is the capacitance</em> and <em>R is the resistance</em>. Voltage for capacitor at any time t is given by:</p>
+<div class="arithmatex">\[
+v_c = V_C \cdot e^{-\frac{t}{\tau}}
+\]</div>
+<p>where, <span class="arithmatex">\(V_C\)</span> is the initial peak voltage across the capacitor.</p>
+<div class="admonition note">
+<p class="admonition-title">Flashback</p>
+<p>When t = τ = RC, <span class="arithmatex">\(v_c\)</span> drops to ≈ <strong>36.8%</strong> of peak voltage <span class="arithmatex">\(V_C\)</span> :</p>
+<div class="arithmatex">\[
+e^{-\frac{RC}{RC}} = e^{-1} \approx 0.368
+\]</div>
+<p>In basic terms, the time constant, τ determines <strong>how quickly the capacitor discharges</strong>. After <strong>one time constant (1τ)</strong>, the voltage of capacitor <strong>reduces to about 36.8% of its initial value</strong>.   </p>
+</div>
+<p>Time constant, τ is important in an RC filter circuit for <strong>maintaining a stable and reliable DC output voltage</strong>. In an RC circuit, the capacitor <strong>charges and discharges</strong> through the capacitor. A larger τ (achieved by <strong>increasing C or R</strong>) results in <strong>slower voltage changes</strong> across capacitor. If <span class="arithmatex">\(CR &gt;&gt; T\)</span> , where T is the period of the input waveform, it ensures that the capacitor <strong>does not discharge significantly during T</strong>, hence <em>minimizing ripple</em>:</p>
+<div class="arithmatex">\[\begin{align*}
+e^{-\frac{T}{\tau}} &amp;= e^{-\frac{T}{RC}} \\
+\text{If } RC &amp;\gg T, \text{ then } \frac{T}{RC} \to 0 \Rightarrow e^{-\frac{T}{RC}} \to 1
+\end{align*}\]</div>
+<p>So, <em>the larger the τ, the smaller the change in</em> <span class="arithmatex">\(V_C\)</span> : </p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/7950e83135c62e7e239c7e2773d210cceefb3003/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev1.png?raw=true" alt="Dev1">
+</div>
+
+<div class="admonition info">
+<p class="admonition-title">For your information</p>
+<p>While larger R or C improves filtering, it may also <strong>slow the circuit's response to load changes</strong>. Besides, <strong>larger C</strong> <em>increases cost or size</em> and <strong>larger R</strong> <em>lowers output current capability</em>.  </p>
+</div>
+<p>When a capacitor discharges through a resistor in an RC filter circuit, the <em>output voltage decays slightly between input pulses</em>. This decay causes a <strong>small fluctuation</strong> called the <strong>ripple voltage</strong>, <span class="arithmatex">\(V_r\)</span>. To <strong>minimize ripple</strong> and keep <span class="arithmatex">\(V_r\)</span> <strong>small</strong>, <strong>CR must be large</strong> to ensure the capacitor <strong>discharges very slowly</strong>: </p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/dc7b42857ec5950bf99380b55e2d2e64bbf559a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev2.png?raw=true" alt="Dev2">
+</div>
+
+<p>Approximation for calculating <strong>DC output voltage</strong> (<span class="arithmatex">\(V_O\)</span>) in an RC filter circuit, accounting for <em>ripple voltage</em> <span class="arithmatex">\(V_r\)</span> :</p>
+<ul>
+<li>The capacitor <strong>discharges between input pulses</strong>, causing the output to <strong>drop</strong> from <span class="arithmatex">\(V_S\)</span> to <span class="arithmatex">\(V_S - V_r\)</span> . </li>
+<li>The <strong>average</strong> of these extremes (<span class="arithmatex">\(V_S\)</span> and <span class="arithmatex">\(V_S - V_r\)</span>) gives the DC output:
+$$ 
+V_O = \frac{V_S + (V_S - V_r)}{2} = V_S - \frac{1}{2} V_r
+$$
+Where:<br />
+<span class="arithmatex">\( V_S \)</span>: Peak voltage (maximum value of the unfiltered input, e.g., rectified AC)<br />
+<span class="arithmatex">\( V_r \)</span>: Peak-to-peak ripple voltage (fluctuation due to capacitor discharge)<br />
+<span class="arithmatex">\( V_O \)</span>: Average DC output voltage after filtering</li>
+</ul>
+<p>In the formula above, <span class="arithmatex">\(V_O\)</span> is basically the <strong>midpoint of the ripple extremes</strong>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>This formula works by assuming that:</strong></p>
+<ul>
+<li>Linear discharge (valid if <span class="arithmatex">\(CR &gt;&gt; T\)</span> , only <strong>small ripple</strong>)</li>
+<li><strong>Symmetric ripple waveform</strong> (sawtooth or triangular approximation)</li>
+</ul>
+</div>
+<p>Relationship between ripple voltage <span class="arithmatex">\(V_r\)</span> , time constant <span class="arithmatex">\(\tau\)</span> and input period <span class="arithmatex">\(T\)</span>: </p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/2d01e0836611c6a8874acaf7f3589f00cde351a8/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev3.png?raw=true" alt="Dev3">
+</div>
+
+<ul>
+<li>During the <strong>discharge phase</strong> of an RC filter circuit, where <strong>diode is cut-off and not conducting</strong>, output voltage <em>decays exponentially</em>: </li>
+</ul>
+<div class="arithmatex">\[
+v_o = V_S \cdot e^{-\frac{t}{CR}}
+\]</div>
+<p>where, <span class="arithmatex">\(V_S\)</span> is the <em>peak voltage</em>.</p>
+<ul>
+<li>At the <strong>end of discharging</strong> (after time T), <strong>output reaches its minimum</strong>:</li>
+</ul>
+<div class="arithmatex">\[
+V_S - V_r \approx V_S e^{\frac{-T}{CR}}
+\]</div>
+<p>where, <span class="arithmatex">\(V_r\)</span> is the <em>voltage drop during discharge</em> / <em>ripple voltage</em>.</p>
+<ul>
+<li>
+<p>As <span class="arithmatex">\(CR &gt;&gt; T\)</span> , <span class="arithmatex">\(\frac{T}{CR}\)</span> is <strong>very small</strong>, hence we can use the approximation of:
+$$
+e^{\frac{-T}{CR}} \approx 1 - \frac{T}{CR}
+$$</p>
+</li>
+<li>
+<p><em>Substituting</em> into the discharge equation we get:
+$$
+V_S - V_r \approx V_S \left(1 - \frac{T}{CR} \right)
+$$</p>
+</li>
+</ul>
+<div class="arithmatex">\[
+V_r \approx V_S \cdot \frac{T}{CR}
+\]</div>
+<div class="admonition abstract">
+<p class="admonition-title">Interpretation</p>
+<p>Final equation to find ripple voltage:</p>
+<div class="arithmatex">\[
+V_r \approx V_S \cdot \frac{T}{CR}
+\]</div>
+<p>Looking at this equation, <strong>ripple voltage</strong> <span class="arithmatex">\(V_r\)</span> <strong>decreases</strong> if:</p>
+<ul>
+<li>C or R <strong>increases</strong> (larger time constant)</li>
+<li>T <strong>decreases</strong></li>
+</ul>
+</div>
+<ul>
+<li>
+<p>As frequency <span class="arithmatex">\(f\)</span> is the reciprocal of cycle period <span class="arithmatex">\(T\)</span> , <span class="arithmatex">\(f = \frac{1}{T}\)</span> , we <em>substitute</em> this into the formula to find <span class="arithmatex">\(V_r\)</span> :
+$$
+V_r \approx V_S \cdot \frac{T}{CR} = \frac{V_S}{fCR}
+$$</p>
+</li>
+<li>
+<p>With <span class="arithmatex">\(V_r &lt;&lt; V_S\)</span> (<strong>small ripple</strong>), we can assume that <strong>capacitor discharges with a constant current</strong>:
+$$
+I_L = \frac{V_S}{R}
+$$</p>
+</li>
+<li>
+<p>If we <em>subsitute</em> this <strong>constant current</strong> <span class="arithmatex">\(I_L\)</span> into the formula for <span class="arithmatex">\(V_r\)</span> : 
+$$
+V_r = \frac{I_LT}{C} = \frac{I_L}{fC}
+$$</p>
+</li>
+</ul>
+<div class="admonition abstract">
+<p class="admonition-title">Interpretation</p>
+<p>Alternative equation to find ripple voltage:</p>
+<div class="arithmatex">\[
+V_r = \frac{I_L}{fC}
+\]</div>
+<p>Looking at this equation, <strong>ripple voltage</strong> <span class="arithmatex">\(V_r\)</span> <strong>decreases</strong> if:</p>
+<ul>
+<li>frequency, <span class="arithmatex">\(f\)</span> or capacitance, <span class="arithmatex">\(C\)</span> <strong>increases</strong> </li>
+<li>load current, <span class="arithmatex">\(I_L\)</span> <strong>decreases</strong></li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The constant-current assumption holds only if <span class="arithmatex">\(V_r &lt;&lt; V_S\)</span> , if <strong>larger ripple</strong>, you need to use <strong>exponential decay equations</strong>. </p>
+</div>
+<h3 id="derivation-of-filter-circuit-full-wave">Derivation of filter circuit (Full-wave)<a class="headerlink" href="#derivation-of-filter-circuit-full-wave" title="Permanent link">&para;</a></h3>
+<p>The key differences between half-wave and full-wave peak rectifiers with capacitor filtering is that:</p>
+<ul>
+<li>
+<p><strong>Half-Wave</strong>: Uses only <strong>one half</strong> of the AC cycle, resulting in a <strong>ripple frequency</strong> (<span class="arithmatex">\(f\)</span>) <strong>equal</strong> to the <strong>input AC frequency</strong> (e.g., <em>50 Hz</em>)</p>
+</li>
+<li>
+<p><strong>Full-Wave</strong>: Uses <strong>both halves</strong> of the AC cycle, <strong>doubling the ripple frequency</strong> (e.g., <em>100 Hz for 50 Hz input</em>)</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li><strong>Half-Wave Output</strong>: Larger gaps between recharge pulses, deeper ripple.</li>
+<li><strong>Full-Wave Output</strong>: More frequent recharging, smaller ripple amplitude.</li>
+</ul>
+</div>
+<p>With <strong>full-wave peak rectifier</strong>, decaying <strong>period</strong> is approximately <strong>reduced by half</strong>, so <strong>discharge time</strong> is <span class="arithmatex">\(\frac{T}{2}\)</span>:
+$$
+V_r = \frac{V_ST}{2CR} = \frac{V_S}{2fCR} 
+$$
+where, <span class="arithmatex">\(f\)</span> is the <strong>original AC frequency</strong> from the <strong>source</strong>. But the <strong>effective ripple frequency</strong> is <span class="arithmatex">\(2f\)</span> . </p>
+<p>The discharge period (<span class="arithmatex">\(T\)</span>) is <strong>halved</strong>, since the capacitor is <strong>recharged twice</strong> as often:</p>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/BEEE/blob/385fa90f6477a5f1490916610eec558e2fd0a6fb/docs/ETL1023%20Analogue%20Electronic/RectifierPic/Dev4.png?raw=true" alt="Dev4">
+</div>
+
+<div class="admonition info">
+<p class="admonition-title">Extra Info</p>
+<p>Full-wave rectifiers require <strong>more diodes</strong> but offer <strong>better performance</strong>, as full-wave rectifier inherently produce <strong>less ripple voltage</strong> for the same <span class="arithmatex">\(C\)</span> , <span class="arithmatex">\(R\)</span> and input frequency because the <strong>capacitor discharges for a shorter time</strong>. </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2025 Joshua OhYQ
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://joshuaohyq.github.io/AI-Python/" target="_blank" rel="noopener" title="Joshua Oh&#39;s GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
