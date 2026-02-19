@@ -29,7 +29,7 @@
         }
         $$
 
-        The Truth Table is:
+        The **Truth Table** is:
 
         | A | B | C | D | $\overline{(A+B)}$ | $\overline{(C \cdot D)}$ | $\overline{(A+B)} \cdot \overline{(C \cdot D)}$ | $Y = \overline{(A+B)} + [\overline{(A+B)} \cdot \overline{(C \cdot D)}]$ |
         |:-:|:-:|:-:|:-:|:------------------:|:------------------------:|:-----------------------------------------------:|:-----------------------------------------------------------------------:|
