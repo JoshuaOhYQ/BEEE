@@ -23,7 +23,7 @@
 
         The **Boolean Expression** is:
         
-        $$\boxed{Y = \overline{A+B} \;+\; {(\overline{A+B}) + (\overlineC \cdot D)}}$$
+        $$\boxed{Y = \overline{A+B} \;+\; {(\overline{A+B}) + (\overline{C \cdot D})}}$$
 
         The Truth Table is:
 
